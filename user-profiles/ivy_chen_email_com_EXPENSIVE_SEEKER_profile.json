@@ -1,0 +1,354 @@
+{
+  "profileType" : "EXPENSIVE_SEEKER",
+  "userName" : "Ivy Chen",
+  "userEmail" : "ivy.chen@email.com",
+  "userAge" : 27,
+  "profileCreatedAt" : "2025-12-18 13:13:25",
+  "lastActivityAt" : "2025-12-18 13:13:26",
+  "totalOperations" : 30,
+  "operationHistory" : [ {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 6,
+    "productName" : "Wireless Mouse",
+    "productPrice" : 49.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 7,
+    "productName" : "Mechanical Keyboard",
+    "productPrice" : 79.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 8,
+    "productName" : "Webcam HD",
+    "productPrice" : 89.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 9,
+    "productName" : "Desk Lamp",
+    "productPrice" : 69.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 10,
+    "productName" : "USB Hub",
+    "productPrice" : 59.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : 700,
+    "productName" : "Ivy's Mid-Range Laptop",
+    "productPrice" : 799.99,
+    "additionalInfo" : null
+  } ],
+  "expensiveProductViews" : 25,
+  "totalProductViews" : 30,
+  "expensiveProductViewPercentage" : 83.33333333333333,
+  "averagePriceViewed" : 1298.3233333333333,
+  "highestPriceViewed" : 2499.99,
+  "lowestPriceViewed" : 49.99,
+  "expensiveProducts" : [ {
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "price" : 899.99,
+    "viewCount" : 6
+  }, {
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "price" : 1299.99,
+    "viewCount" : 6
+  }, {
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "price" : 2499.99,
+    "viewCount" : 6
+  }, {
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "price" : 1599.99,
+    "viewCount" : 6
+  }, {
+    "productId" : 700,
+    "productName" : "Ivy's Mid-Range Laptop",
+    "price" : 799.99,
+    "viewCount" : 1
+  } ],
+  "profileDescription" : "User interested in expensive products (83,3% of views > €100,00)",
+  "profileType" : "EXPENSIVE_SEEKER"
+}

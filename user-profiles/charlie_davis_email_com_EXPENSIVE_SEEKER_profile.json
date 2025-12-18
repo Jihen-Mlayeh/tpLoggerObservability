@@ -1,0 +1,579 @@
+{
+  "profileType" : "EXPENSIVE_SEEKER",
+  "userName" : "Charlie Davis",
+  "userEmail" : "charlie.davis@email.com",
+  "userAge" : 42,
+  "profileCreatedAt" : "2025-12-18 13:13:15",
+  "lastActivityAt" : "2025-12-18 13:13:17",
+  "totalOperations" : 50,
+  "operationHistory" : [ {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:15",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 11,
+    "productName" : "Gaming Monitor",
+    "productPrice" : 299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 11,
+    "productName" : "Gaming Monitor",
+    "productPrice" : 299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 12,
+    "productName" : "Mechanical Keyboard RGB",
+    "productPrice" : 149.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:16",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 12,
+    "productName" : "Mechanical Keyboard RGB",
+    "productPrice" : 149.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Charlie Davis",
+    "userEmail" : "charlie.davis@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  } ],
+  "expensiveProductViews" : 50,
+  "totalProductViews" : 50,
+  "expensiveProductViewPercentage" : 100.0,
+  "averagePriceViewed" : 2439.99,
+  "highestPriceViewed" : 3899.99,
+  "lowestPriceViewed" : 149.99,
+  "expensiveProducts" : [ {
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "price" : 2499.99,
+    "viewCount" : 8
+  }, {
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "price" : 1599.99,
+    "viewCount" : 8
+  }, {
+    "productId" : 18,
+    "productName" : "Sony A7R V Camera",
+    "price" : 3899.99,
+    "viewCount" : 8
+  }, {
+    "productId" : 19,
+    "productName" : "LG OLED TV 77\"",
+    "price" : 2999.99,
+    "viewCount" : 8
+  }, {
+    "productId" : 20,
+    "productName" : "Gaming Laptop RTX 4090",
+    "price" : 3499.99,
+    "viewCount" : 8
+  }, {
+    "productId" : 11,
+    "productName" : "Gaming Monitor",
+    "price" : 299.99,
+    "viewCount" : 2
+  }, {
+    "productId" : 12,
+    "productName" : "Mechanical Keyboard RGB",
+    "price" : 149.99,
+    "viewCount" : 2
+  }, {
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "price" : 349.99,
+    "viewCount" : 2
+  }, {
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "price" : 899.99,
+    "viewCount" : 2
+  }, {
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "price" : 1299.99,
+    "viewCount" : 2
+  } ],
+  "profileDescription" : "User interested in expensive products (100,0% of views > €100,00)",
+  "profileType" : "EXPENSIVE_SEEKER"
+}

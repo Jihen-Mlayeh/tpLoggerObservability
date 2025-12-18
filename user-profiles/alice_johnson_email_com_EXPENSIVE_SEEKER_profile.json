@@ -1,0 +1,359 @@
+{
+  "profileType" : "EXPENSIVE_SEEKER",
+  "userName" : "Alice Johnson",
+  "userEmail" : "alice.johnson@email.com",
+  "userAge" : 28,
+  "profileCreatedAt" : "2025-12-18 13:13:12",
+  "lastActivityAt" : "2025-12-18 13:13:13",
+  "totalOperations" : 27,
+  "operationHistory" : [ {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 2,
+    "productName" : "pp",
+    "productPrice" : 101.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 2,
+    "productName" : "pp",
+    "productPrice" : 101.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 7,
+    "productName" : "Mechanical Keyboard",
+    "productPrice" : 79.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 10,
+    "productName" : "USB Hub",
+    "productPrice" : 59.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 6,
+    "productName" : "Wireless Mouse",
+    "productPrice" : 49.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:12",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 8,
+    "productName" : "Webcam HD",
+    "productPrice" : 89.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 10,
+    "productName" : "USB Hub",
+    "productPrice" : 59.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 9,
+    "productName" : "Desk Lamp",
+    "productPrice" : 69.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 8,
+    "productName" : "Webcam HD",
+    "productPrice" : 89.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 101,
+    "productName" : "Alice's USB Drive",
+    "productPrice" : 19.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:13",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 102,
+    "productName" : "Alice's Phone Stand",
+    "productPrice" : 24.99,
+    "additionalInfo" : null
+  } ],
+  "expensiveProductViews" : 18,
+  "totalProductViews" : 27,
+  "expensiveProductViewPercentage" : 66.66666666666667,
+  "averagePriceViewed" : 649.8803703703704,
+  "highestPriceViewed" : 2499.99,
+  "lowestPriceViewed" : 19.99,
+  "expensiveProducts" : [ {
+    "productId" : 13,
+    "productName" : "Noise Cancelling Headphones",
+    "price" : 349.99,
+    "viewCount" : 6
+  }, {
+    "productId" : 2,
+    "productName" : "pp",
+    "price" : 101.0,
+    "viewCount" : 2
+  }, {
+    "productId" : 14,
+    "productName" : "iPad Pro",
+    "price" : 899.99,
+    "viewCount" : 2
+  }, {
+    "productId" : 3,
+    "productName" : "ii",
+    "price" : 150.0,
+    "viewCount" : 2
+  }, {
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "price" : 2499.99,
+    "viewCount" : 4
+  }, {
+    "productId" : 15,
+    "productName" : "MacBook Air M3",
+    "price" : 1299.99,
+    "viewCount" : 2
+  } ],
+  "profileDescription" : "User interested in expensive products (66,7% of views > €100,00)",
+  "profileType" : "EXPENSIVE_SEEKER"
+}

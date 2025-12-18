@@ -1,0 +1,339 @@
+{
+  "profileType" : "EXPENSIVE_SEEKER",
+  "userName" : "Diana Martinez",
+  "userEmail" : "diana.martinez@email.com",
+  "userAge" : 31,
+  "profileCreatedAt" : "2025-12-18 13:13:17",
+  "lastActivityAt" : "2025-12-18 13:13:18",
+  "totalOperations" : 26,
+  "operationHistory" : [ {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 300,
+    "productName" : "Diana's Managed Product 1",
+    "productPrice" : 280.710990816826,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 301,
+    "productName" : "Diana's Managed Product 2",
+    "productPrice" : 135.65867943960887,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 302,
+    "productName" : "Diana's Managed Product 3",
+    "productPrice" : 24.007523647230613,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 303,
+    "productName" : "Diana's Managed Product 4",
+    "productPrice" : 57.7082637199599,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 304,
+    "productName" : "Diana's Managed Product 5",
+    "productPrice" : 101.62973880755622,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 305,
+    "productName" : "Diana's Managed Product 6",
+    "productPrice" : 69.27397109647852,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 306,
+    "productName" : "Diana's Managed Product 7",
+    "productPrice" : 232.65992985188657,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 307,
+    "productName" : "Diana's Managed Product 8",
+    "productPrice" : 304.27974456128857,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 300,
+    "productName" : "Diana's Managed Product 1",
+    "productPrice" : 280.710990816826,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:17",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 300,
+    "productName" : "Diana's Managed Product 1",
+    "productPrice" : 280.710990816826,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 301,
+    "productName" : "Diana's Managed Product 2",
+    "productPrice" : 135.65867943960887,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 301,
+    "productName" : "Diana's Managed Product 2",
+    "productPrice" : 135.65867943960887,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 302,
+    "productName" : "Diana's Managed Product 3",
+    "productPrice" : 24.007523647230613,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 300,
+    "productName" : "Diana's Updated Product 1",
+    "productPrice" : 79.48274296614974,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 301,
+    "productName" : "Diana's Updated Product 2",
+    "productPrice" : 110.63821949967333,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 302,
+    "productName" : "Diana's Updated Product 3",
+    "productPrice" : 217.67996714164013,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 303,
+    "productName" : "Diana's Updated Product 4",
+    "productPrice" : 106.72484709165025,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 304,
+    "productName" : "Diana's Updated Product 5",
+    "productPrice" : 263.8223883005489,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 305,
+    "productName" : "Diana's Updated Product 6",
+    "productPrice" : 259.66210602071,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 306,
+    "productName" : "Diana's Updated Product 7",
+    "productPrice" : 267.0573713380114,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 307,
+    "productName" : "Diana's Updated Product 8",
+    "productPrice" : 255.6803470955128,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 303,
+    "productName" : "Diana's Updated Product 4",
+    "productPrice" : 106.72484709165025,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 304,
+    "productName" : "Diana's Updated Product 5",
+    "productPrice" : 263.8223883005489,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 305,
+    "productName" : "Diana's Updated Product 6",
+    "productPrice" : 259.66210602071,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 306,
+    "productName" : "Diana's Updated Product 7",
+    "productPrice" : 267.0573713380114,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:18",
+    "userName" : "Diana Martinez",
+    "userEmail" : "diana.martinez@email.com",
+    "productId" : 307,
+    "productName" : "Diana's Updated Product 8",
+    "productPrice" : 255.6803470955128,
+    "additionalInfo" : null
+  } ],
+  "expensiveProductViews" : 21,
+  "totalProductViews" : 26,
+  "expensiveProductViewPercentage" : 80.76923076923077,
+  "averagePriceViewed" : 183.70656751543328,
+  "highestPriceViewed" : 304.27974456128857,
+  "lowestPriceViewed" : 24.007523647230613,
+  "expensiveProducts" : [ {
+    "productId" : 300,
+    "productName" : "Diana's Managed Product 1",
+    "price" : 280.710990816826,
+    "viewCount" : 3
+  }, {
+    "productId" : 301,
+    "productName" : "Diana's Managed Product 2",
+    "price" : 135.65867943960887,
+    "viewCount" : 4
+  }, {
+    "productId" : 304,
+    "productName" : "Diana's Managed Product 5",
+    "price" : 101.62973880755622,
+    "viewCount" : 3
+  }, {
+    "productId" : 306,
+    "productName" : "Diana's Managed Product 7",
+    "price" : 232.65992985188657,
+    "viewCount" : 3
+  }, {
+    "productId" : 307,
+    "productName" : "Diana's Managed Product 8",
+    "price" : 304.27974456128857,
+    "viewCount" : 3
+  }, {
+    "productId" : 302,
+    "productName" : "Diana's Updated Product 3",
+    "price" : 217.67996714164013,
+    "viewCount" : 1
+  }, {
+    "productId" : 303,
+    "productName" : "Diana's Updated Product 4",
+    "price" : 106.72484709165025,
+    "viewCount" : 2
+  }, {
+    "productId" : 305,
+    "productName" : "Diana's Updated Product 6",
+    "price" : 259.66210602071,
+    "viewCount" : 2
+  } ],
+  "profileDescription" : "User interested in expensive products (80,8% of views > €100,00)",
+  "profileType" : "EXPENSIVE_SEEKER"
+}

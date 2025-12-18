@@ -3,81 +3,27 @@
   "userName" : "jihen",
   "userEmail" : "mlayeh@gmail.com",
   "userAge" : 25,
-  "profileCreatedAt" : "2025-12-17 22:19:37",
-  "lastActivityAt" : "2025-12-17 22:25:04",
-  "totalOperations" : 6,
+  "profileCreatedAt" : "2025-12-18 12:45:20",
+  "lastActivityAt" : "2025-12-18 12:45:20",
+  "totalOperations" : 1,
   "operationHistory" : [ {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-17 22:19:37",
+    "timestamp" : "2025-12-18 12:45:20",
     "userName" : "jihen",
     "userEmail" : "mlayeh@gmail.com",
-    "productId" : 1,
-    "productName" : "kk",
-    "productPrice" : 20.0,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-17 22:20:41",
-    "userName" : "jihen",
-    "userEmail" : "mlayeh@gmail.com",
-    "productId" : 1,
-    "productName" : "kk",
-    "productPrice" : 20.0,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "updateProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-17 22:21:06",
-    "userName" : "jihen",
-    "userEmail" : "mlayeh@gmail.com",
-    "productId" : 1,
-    "productName" : "mm",
-    "productPrice" : 28.0,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getAllProducts",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-17 22:21:13",
-    "userName" : "jihen",
-    "userEmail" : "mlayeh@gmail.com",
-    "productId" : null,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-17 22:21:18",
-    "userName" : "jihen",
-    "userEmail" : "mlayeh@gmail.com",
-    "productId" : 1,
-    "productName" : "mm",
-    "productPrice" : 28.0,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-17 22:25:04",
-    "userName" : "jihen",
-    "userEmail" : "mlayeh@gmail.com",
-    "productId" : 1,
-    "productName" : "mm",
-    "productPrice" : 28.0,
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
     "additionalInfo" : null
   } ],
-  "totalReadOperations" : 3,
-  "totalWriteOperations" : 3,
-  "readPercentage" : 50.0,
-  "getAllProductsCount" : 1,
-  "getProductByIdCount" : 2,
-  "productViewCount" : {
-    "1" : 2
-  },
-  "productNames" : {
-    "1" : "mm"
-  },
-  "profileType" : "READ_HEAVY",
-  "profileDescription" : "User who performs mostly READ operations (50,0% reads)"
+  "totalReadOperations" : 0,
+  "totalWriteOperations" : 1,
+  "readPercentage" : 0.0,
+  "getAllProductsCount" : 0,
+  "getProductByIdCount" : 0,
+  "productViewCount" : { },
+  "productNames" : { },
+  "profileDescription" : "User who performs mostly READ operations (0,0% reads)",
+  "profileType" : "READ_HEAVY"
 }

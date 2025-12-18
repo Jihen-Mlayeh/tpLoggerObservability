@@ -1,0 +1,309 @@
+{
+  "profileType" : "EXPENSIVE_SEEKER",
+  "userName" : "Grace Lee",
+  "userEmail" : "grace.lee@email.com",
+  "userAge" : 22,
+  "profileCreatedAt" : "2025-12-18 13:13:22",
+  "lastActivityAt" : "2025-12-18 13:13:23",
+  "totalOperations" : 23,
+  "operationHistory" : [ {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:22",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:22",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:22",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:22",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:22",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:22",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 1,
+    "productName" : "kk",
+    "productPrice" : 20.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:22",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 2,
+    "productName" : "pp",
+    "productPrice" : 101.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:22",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 2,
+    "productName" : "pp",
+    "productPrice" : 101.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 4,
+    "productName" : "Phone Case",
+    "productPrice" : 24.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 5,
+    "productName" : "Keyboard Cover",
+    "productPrice" : 29.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 1,
+    "productName" : "kk",
+    "productPrice" : 20.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 2,
+    "productName" : "pp",
+    "productPrice" : 101.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 2,
+    "productName" : "pp",
+    "productPrice" : 101.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 4,
+    "productName" : "Phone Case",
+    "productPrice" : 24.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 5,
+    "productName" : "Keyboard Cover",
+    "productPrice" : 29.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 1,
+    "productName" : "kk",
+    "productPrice" : 20.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 2,
+    "productName" : "pp",
+    "productPrice" : 101.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 2,
+    "productName" : "pp",
+    "productPrice" : 101.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 3,
+    "productName" : "ii",
+    "productPrice" : 150.0,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 4,
+    "productName" : "Phone Case",
+    "productPrice" : 24.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 5,
+    "productName" : "Keyboard Cover",
+    "productPrice" : 29.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 500,
+    "productName" : "Grace's Notebook",
+    "productPrice" : 5.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Grace Lee",
+    "userEmail" : "grace.lee@email.com",
+    "productId" : 501,
+    "productName" : "Grace's Pen Set",
+    "productPrice" : 12.99,
+    "additionalInfo" : null
+  } ],
+  "expensiveProductViews" : 12,
+  "totalProductViews" : 23,
+  "expensiveProductViewPercentage" : 52.17391304347826,
+  "averagePriceViewed" : 76.08347826086957,
+  "highestPriceViewed" : 150.0,
+  "lowestPriceViewed" : 5.99,
+  "expensiveProducts" : [ {
+    "productId" : 2,
+    "productName" : "pp",
+    "price" : 101.0,
+    "viewCount" : 6
+  }, {
+    "productId" : 3,
+    "productName" : "ii",
+    "price" : 150.0,
+    "viewCount" : 6
+  } ],
+  "profileDescription" : "User interested in expensive products (52,2% of views > €100,00)",
+  "profileType" : "EXPENSIVE_SEEKER"
+}

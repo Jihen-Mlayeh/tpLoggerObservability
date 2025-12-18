@@ -27,20 +27,25 @@ public class ProductCLI implements CommandLineRunner {
     private static final Logger logger = LoggerFactory.getLogger(ProductCLI.class);
 
     private final ProductService productService;
-    private final UserService userService;  // NEW: User management
+    private final UserService userService;
     private final UserProfileService userProfileService;
     private final Scanner scanner = new Scanner(System.in);
 
     private User currentUser;
 
     @Override
-    public void run(String... args) {
+    public void run(String... args) throws Exception {
+        // Check if we should skip CLI (for scenarios)
+        for (String arg : args) {
+            if ("--run-scenarios".equals(arg) || "--scenarios".equals(arg)) {
+                logger.info("Skipping ProductCLI - Running scenarios instead");
+                return; // Exit early, let ScenarioRunner take over
+            }
+        }
+
         logger.info("Starting Product Management CLI with User Authentication & Profiling");
 
-        // NEW: Login or Register
         authenticateUser();
-
-        // Set the current user in ProductService context
         productService.setCurrentUser(currentUser);
 
         boolean running = true;
@@ -55,7 +60,7 @@ public class ProductCLI implements CommandLineRunner {
                     case 3 -> addNewProduct();
                     case 4 -> deleteProduct();
                     case 5 -> updateProduct();
-                    case 6 -> searchExpensiveProducts();  // NEW: Explicit search
+                    case 6 -> searchExpensiveProducts();
                     case 7 -> displayUserProfile();
                     case 8 -> exportUserProfile();
                     case 9 -> displayAllUserProfiles();
@@ -71,7 +76,6 @@ public class ProductCLI implements CommandLineRunner {
             }
         }
 
-        // Export profile on exit
         try {
             userProfileService.exportProfileToJson(currentUser);
             System.out.println("✅ Your profile has been saved!");
@@ -79,7 +83,6 @@ public class ProductCLI implements CommandLineRunner {
             logger.error("Failed to export user profile", e);
         }
 
-        // Clear user context
         productService.clearCurrentUser();
 
         System.out.println("\n👋 Goodbye, " + currentUser.getName() + "!");
@@ -174,7 +177,7 @@ public class ProductCLI implements CommandLineRunner {
         System.out.println("║ 3. Add new product                     ║");
         System.out.println("║ 4. Delete product                      ║");
         System.out.println("║ 5. Update product                      ║");
-        System.out.println("║ 6. Search expensive products (>€100)   ║");  // NEW
+        System.out.println("║ 6. Search expensive products (>€100)   ║");
         System.out.println("║ ────────────────────────────────────   ║");
         System.out.println("║ 7. View my profile                     ║");
         System.out.println("║ 8. Export my profile (JSON)            ║");
@@ -197,7 +200,6 @@ public class ProductCLI implements CommandLineRunner {
 
     private void displayAllProducts() {
         logger.info("CLI: User {} requested all products", currentUser.getName());
-
         List<Product> products = productService.getAllProducts();
 
         System.out.println("\n📦 ALL PRODUCTS");
@@ -312,8 +314,6 @@ public class ProductCLI implements CommandLineRunner {
         }
     }
 
-    // ================= NEW: EXPENSIVE PRODUCT SEARCH =================
-
     private void searchExpensiveProducts() {
         logger.info("CLI: User {} searching for expensive products", currentUser.getName());
 
@@ -337,7 +337,6 @@ public class ProductCLI implements CommandLineRunner {
                         p.getId(), p.getName(), p.getPrice(), p.getExpirationDate()
                 );
 
-                // Log each view as expensive product search
                 userProfileService.logOperation(
                         currentUser,
                         "searchExpensiveProduct",
@@ -351,8 +350,6 @@ public class ProductCLI implements CommandLineRunner {
             System.out.println("\n✅ All expensive products have been logged to your profile!");
         }
     }
-
-    // ================= PROFILING =================
 
     private void displayUserProfile() {
         logger.info("CLI: User {} viewing their profile", currentUser.getName());
@@ -373,7 +370,6 @@ public class ProductCLI implements CommandLineRunner {
                     System.out.println("   Profile Created: " + profile.getProfileCreatedAt());
                     System.out.println("   Last Activity: " + profile.getLastActivityAt());
 
-                    // Show specific profile details
                     if (profile instanceof com.example.logging_and_observability.profiling.model.ReadHeavyProfile readProfile) {
                         System.out.println("\n📖 READ OPERATIONS DETAILS:");
                         System.out.println("   Total Reads: " + readProfile.getTotalReadOperations());

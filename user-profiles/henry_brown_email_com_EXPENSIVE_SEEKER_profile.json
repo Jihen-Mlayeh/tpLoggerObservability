@@ -1,0 +1,359 @@
+{
+  "profileType" : "EXPENSIVE_SEEKER",
+  "userName" : "Henry Brown",
+  "userEmail" : "henry.brown@email.com",
+  "userAge" : 38,
+  "profileCreatedAt" : "2025-12-18 13:13:23",
+  "lastActivityAt" : "2025-12-18 13:13:25",
+  "totalOperations" : 28,
+  "operationHistory" : [ {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:23",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 600,
+    "productName" : "Henry's Stock Item 1",
+    "productPrice" : 403.5925663661971,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 601,
+    "productName" : "Henry's Stock Item 2",
+    "productPrice" : 11.28147795926109,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 602,
+    "productName" : "Henry's Stock Item 3",
+    "productPrice" : 155.81740023030494,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 603,
+    "productName" : "Henry's Stock Item 4",
+    "productPrice" : 352.6531594086346,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 604,
+    "productName" : "Henry's Stock Item 5",
+    "productPrice" : 178.64136333962986,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 605,
+    "productName" : "Henry's Stock Item 6",
+    "productPrice" : 303.9201672725474,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 606,
+    "productName" : "Henry's Stock Item 7",
+    "productPrice" : 57.31596391212961,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 607,
+    "productName" : "Henry's Stock Item 8",
+    "productPrice" : 76.70784583215139,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 608,
+    "productName" : "Henry's Stock Item 9",
+    "productPrice" : 315.0540671661334,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 609,
+    "productName" : "Henry's Stock Item 10",
+    "productPrice" : 159.64840096108495,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 610,
+    "productName" : "Henry's Stock Item 11",
+    "productPrice" : 472.035326122562,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 611,
+    "productName" : "Henry's Stock Item 12",
+    "productPrice" : 156.8741163891482,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 600,
+    "productName" : "Henry's Stock Item 1",
+    "productPrice" : 403.5925663661971,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 600,
+    "productName" : "Henry's Stock Item 1",
+    "productPrice" : 403.5925663661971,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 601,
+    "productName" : "Henry's Stock Item 2",
+    "productPrice" : 11.28147795926109,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 602,
+    "productName" : "Henry's Stock Item 3",
+    "productPrice" : 155.81740023030494,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 602,
+    "productName" : "Henry's Stock Item 3",
+    "productPrice" : 155.81740023030494,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:24",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 600,
+    "productName" : "Henry's Updated Stock 1",
+    "productPrice" : 380.62055965095584,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 601,
+    "productName" : "Henry's Updated Stock 2",
+    "productPrice" : 418.6702945696554,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 602,
+    "productName" : "Henry's Updated Stock 3",
+    "productPrice" : 138.63302065069652,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 603,
+    "productName" : "Henry's Updated Stock 4",
+    "productPrice" : 323.2993330651192,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 604,
+    "productName" : "Henry's Updated Stock 5",
+    "productPrice" : 191.83595023961948,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 605,
+    "productName" : "Henry's Updated Stock 6",
+    "productPrice" : 164.45403329498876,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 607,
+    "productName" : "Henry's Stock Item 8",
+    "productPrice" : 76.70784583215139,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 608,
+    "productName" : "Henry's Stock Item 9",
+    "productPrice" : 315.0540671661334,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 609,
+    "productName" : "Henry's Stock Item 10",
+    "productPrice" : 159.64840096108495,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 610,
+    "productName" : "Henry's Stock Item 11",
+    "productPrice" : 472.035326122562,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "deleteProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 13:13:25",
+    "userName" : "Henry Brown",
+    "userEmail" : "henry.brown@email.com",
+    "productId" : 611,
+    "productName" : "Henry's Stock Item 12",
+    "productPrice" : 156.8741163891482,
+    "additionalInfo" : null
+  } ],
+  "expensiveProductViews" : 23,
+  "totalProductViews" : 28,
+  "expensiveProductViewPercentage" : 82.14285714285714,
+  "averagePriceViewed" : 234.69557907336304,
+  "highestPriceViewed" : 472.035326122562,
+  "lowestPriceViewed" : 11.28147795926109,
+  "expensiveProducts" : [ {
+    "productId" : 600,
+    "productName" : "Henry's Stock Item 1",
+    "price" : 403.5925663661971,
+    "viewCount" : 4
+  }, {
+    "productId" : 602,
+    "productName" : "Henry's Stock Item 3",
+    "price" : 155.81740023030494,
+    "viewCount" : 4
+  }, {
+    "productId" : 603,
+    "productName" : "Henry's Stock Item 4",
+    "price" : 352.6531594086346,
+    "viewCount" : 2
+  }, {
+    "productId" : 604,
+    "productName" : "Henry's Stock Item 5",
+    "price" : 178.64136333962986,
+    "viewCount" : 2
+  }, {
+    "productId" : 605,
+    "productName" : "Henry's Stock Item 6",
+    "price" : 303.9201672725474,
+    "viewCount" : 2
+  }, {
+    "productId" : 608,
+    "productName" : "Henry's Stock Item 9",
+    "price" : 315.0540671661334,
+    "viewCount" : 2
+  }, {
+    "productId" : 609,
+    "productName" : "Henry's Stock Item 10",
+    "price" : 159.64840096108495,
+    "viewCount" : 2
+  }, {
+    "productId" : 610,
+    "productName" : "Henry's Stock Item 11",
+    "price" : 472.035326122562,
+    "viewCount" : 2
+  }, {
+    "productId" : 611,
+    "productName" : "Henry's Stock Item 12",
+    "price" : 156.8741163891482,
+    "viewCount" : 2
+  }, {
+    "productId" : 601,
+    "productName" : "Henry's Updated Stock 2",
+    "price" : 418.6702945696554,
+    "viewCount" : 1
+  } ],
+  "profileDescription" : "User interested in expensive products (82,1% of views > €100,00)",
+  "profileType" : "EXPENSIVE_SEEKER"
+}
