@@ -1,0 +1,41 @@
+2025-12-18 12:13:17.766 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-18 12:13:17.852 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 23708 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-18 12:13:17.854 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-18 12:13:18.887 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-18 12:13:19.020 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 121 ms. Found 2 MongoDB repository interfaces.
+2025-12-18 12:13:20.285 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-18 12:13:20.303 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-18 12:13:20.308 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-18 12:13:20.308 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-18 12:13:20.427 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-18 12:13:20.428 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2440 ms
+2025-12-18 12:13:20.862 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7d8cf9ac, com.mongodb.Jep395RecordCodecProvider@5f0bab7e, com.mongodb.KotlinCodecProvider@3a7b2e2]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-18 12:13:20.888 [cluster-ClusterId{value='6943e1d000e63d6eb99cfe8b', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=41399300}
+2025-12-18 12:13:21.579 [main] INFO  c.e.l.p.service.UserProfileService - UserProfileService initialized. Profiles directory: user-profiles
+2025-12-18 12:13:22.218 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-18 12:13:22.254 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-18 12:13:22.264 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 5.54 seconds (process running for 8.124)
+2025-12-18 12:13:22.266 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI with User Authentication & Profiling
+2025-12-18 12:13:44.892 [main] INFO  c.e.l.service.UserService - Attempting to register user: mlayeh@gmail.com
+2025-12-18 12:13:45.187 [main] INFO  c.e.l.service.UserService - Successfully registered user: mlayeh@gmail.com with ID: 1
+2025-12-18 12:13:45.188 [main] INFO  c.e.l.cli.ProductCLI - User registered: jihen (mlayeh@gmail.com)
+2025-12-18 12:13:45.188 [main] DEBUG c.e.l.service.ProductService - Current user set: jihen
+2025-12-18 12:14:12.293 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-18 12:14:50.335 [main] INFO  c.e.l.service.ProductService - Attempting to add new product: kk
+2025-12-18 12:14:50.335 [main] DEBUG c.e.l.service.ProductService - Product details: Product{id='1', name='kk', price=20.0, expirationDate=2026-05-28}
+2025-12-18 12:14:50.350 [main] INFO  c.e.l.p.service.UserProfileService - Created initial profile for user: jihen
+2025-12-18 12:14:50.350 [main] INFO  c.e.l.service.ProductService - Successfully added product with ID: 1
+2025-12-18 12:14:50.350 [main] DEBUG c.e.l.service.ProductService - Saved product: Product{id='1', name='kk', price=20.0, expirationDate=2026-05-28}
+2025-12-18 12:15:00.534 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen searching for expensive products
+2025-12-18 12:15:00.535 [main] INFO  c.e.l.service.ProductService - Fetching all products from repository
+2025-12-18 12:15:00.564 [main] INFO  c.e.l.service.ProductService - Successfully retrieved 1 products in 29ms
+2025-12-18 12:15:00.564 [main] DEBUG c.e.l.service.ProductService - Products: [Product{id='1', name='kk', price=20.0, expirationDate=2026-05-28}]
+2025-12-18 12:15:12.933 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-18 12:15:27.948 [main] INFO  c.e.l.service.ProductService - Attempting to add new product: pp
+2025-12-18 12:15:27.949 [main] DEBUG c.e.l.service.ProductService - Product details: Product{id='2', name='pp', price=101.0, expirationDate=2026-05-26}
+2025-12-18 12:15:27.956 [main] INFO  c.e.l.service.ProductService - Successfully added product with ID: 2
+2025-12-18 12:15:27.956 [main] DEBUG c.e.l.service.ProductService - Saved product: Product{id='2', name='pp', price=101.0, expirationDate=2026-05-26}
+2025-12-18 12:15:32.140 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen searching for expensive products
+2025-12-18 12:15:32.140 [main] INFO  c.e.l.service.ProductService - Fetching all products from repository
+2025-12-18 12:15:32.144 [main] INFO  c.e.l.service.ProductService - Successfully retrieved 2 products in 4ms
+2025-12-18 12:15:32.144 [main] DEBUG c.e.l.service.ProductService - Products: [Product{id='1', name='kk', price=20.0, expirationDate=2026-05-28}, Product{id='2', name='pp', price=101.0, expirationDate=2026-05-26}]

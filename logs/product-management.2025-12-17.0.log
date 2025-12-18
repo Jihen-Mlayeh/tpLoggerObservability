@@ -1,0 +1,559 @@
+2025-12-17 20:39:10.037 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 20:39:10.086 [main] INFO  c.e.l.LoggingAndObservabilityApplicationTests - Starting LoggingAndObservabilityApplicationTests using Java 21.0.8 with PID 9504 (started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 20:39:10.088 [main] INFO  c.e.l.LoggingAndObservabilityApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 20:39:11.211 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 20:39:11.333 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 107 ms. Found 1 MongoDB repository interface.
+2025-12-17 20:39:12.758 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@1fd7a37, com.mongodb.Jep395RecordCodecProvider@5b202ff, com.mongodb.KotlinCodecProvider@58a84a12]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 20:39:12.842 [cluster-ClusterId{value='694306e0065fe176a32d9799', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=64211400}
+2025-12-17 20:39:14.977 [main] INFO  c.e.l.LoggingAndObservabilityApplicationTests - Started LoggingAndObservabilityApplicationTests in 5.833 seconds (process running for 8.413)
+2025-12-17 20:39:14.982 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI
+2025-12-17 20:39:14.983 [main] INFO  c.e.l.cli.ProductCLI - Initiating user creation process
+2025-12-17 20:39:28.089 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-17 20:46:53.932 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 20:46:54.017 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 17552 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 20:46:54.019 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 20:46:54.869 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 20:46:54.949 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 1 MongoDB repository interface.
+2025-12-17 20:46:55.891 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 20:46:55.903 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 20:46:55.906 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 20:46:55.906 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 20:46:56.000 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 20:46:56.001 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1855 ms
+2025-12-17 20:46:56.382 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@535a518c, com.mongodb.Jep395RecordCodecProvider@38f981b6, com.mongodb.KotlinCodecProvider@3a4aadf8]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 20:46:56.405 [cluster-ClusterId{value='694308b042f9d022473002f5', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=40848200}
+2025-12-17 20:46:57.516 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 20:46:57.551 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 20:46:57.561 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.669 seconds (process running for 6.189)
+2025-12-17 20:46:57.563 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI
+2025-12-17 20:46:57.563 [main] INFO  c.e.l.cli.ProductCLI - Initiating user creation process
+2025-12-17 20:47:16.979 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayehjihen@gmail.com)
+2025-12-17 20:47:28.676 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen requested to add new product
+2025-12-17 20:51:42.929 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 20:51:43.001 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 29292 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 20:51:43.004 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 20:51:43.837 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 20:51:43.906 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 1 MongoDB repository interface.
+2025-12-17 20:51:44.920 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 20:51:44.933 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 20:51:44.937 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 20:51:44.938 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 20:51:45.028 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 20:51:45.028 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1905 ms
+2025-12-17 20:51:45.396 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@ee8e7ff, com.mongodb.Jep395RecordCodecProvider@61a2aeb7, com.mongodb.KotlinCodecProvider@64b70f41]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 20:51:45.416 [cluster-ClusterId{value='694309d119e57b0d6bebb9df', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=46317500}
+2025-12-17 20:51:46.747 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 20:51:46.781 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 20:51:46.791 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.822 seconds (process running for 6.239)
+2025-12-17 20:51:46.794 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI
+2025-12-17 20:54:25.730 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayeh)
+2025-12-17 20:54:35.242 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen requested all products
+2025-12-17 20:54:35.243 [main] INFO  c.e.l.service.ProductService - Fetching all products from repository
+2025-12-17 20:54:35.417 [main] INFO  c.e.l.service.ProductService - Successfully retrieved 1 products in 174ms
+2025-12-17 21:02:55.168 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 21:02:55.228 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 20620 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 21:02:55.229 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 21:02:55.979 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 21:02:56.058 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 MongoDB repository interface.
+2025-12-17 21:02:56.975 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 21:02:56.985 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:02:56.989 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 21:02:56.990 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 21:02:57.078 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 21:02:57.078 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1753 ms
+2025-12-17 21:02:57.420 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3e33b52e, com.mongodb.Jep395RecordCodecProvider@4c6a4ffd, com.mongodb.KotlinCodecProvider@3aed69dd]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 21:02:57.438 [cluster-ClusterId{value='69430c714723820642c30d86', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=35978300}
+2025-12-17 21:02:58.459 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:02:58.490 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 21:02:58.499 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.211 seconds (process running for 5.592)
+2025-12-17 21:02:58.501 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI
+2025-12-17 21:03:23.429 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayeh@gmail.com)
+2025-12-17 21:03:30.479 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-17 21:03:50.208 [main] INFO  c.e.l.service.ProductService - Attempting to add new product: kk
+2025-12-17 21:03:50.395 [main] INFO  c.e.l.service.ProductService - Successfully added product with ID: 1
+2025-12-17 21:03:54.995 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen requested all products
+2025-12-17 21:03:54.997 [main] INFO  c.e.l.service.ProductService - Fetching all products from repository
+2025-12-17 21:03:55.037 [main] INFO  c.e.l.service.ProductService - Successfully retrieved 1 products in 40ms
+2025-12-17 21:05:44.707 [main] INFO  c.e.l.cli.ProductCLI - User jihen logged out
+2025-12-17 21:05:44.708 [main] INFO  c.e.l.cli.ProductCLI - CLI application terminated
+2025-12-17 21:05:44.710 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Application started successfully
+2025-12-17 21:06:10.473 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 21:06:10.555 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 13944 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 21:06:10.557 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 21:06:11.395 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 21:06:11.472 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 61 ms. Found 1 MongoDB repository interface.
+2025-12-17 21:06:12.496 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 21:06:12.509 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:06:12.513 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 21:06:12.513 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 21:06:12.603 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 21:06:12.605 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1948 ms
+2025-12-17 21:06:12.986 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@da4cf09, com.mongodb.Jep395RecordCodecProvider@1980a3f, com.mongodb.KotlinCodecProvider@67f63d26]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 21:06:13.007 [cluster-ClusterId{value='69430d34e3a0c7643c21a55e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=36476600}
+2025-12-17 21:06:14.038 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:06:14.070 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 21:06:14.080 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.661 seconds (process running for 6.9)
+2025-12-17 21:06:14.083 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI
+2025-12-17 21:07:12.572 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayeh@gmail.com)
+2025-12-17 21:07:35.288 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen update product
+2025-12-17 21:08:04.640 [main] INFO  c.e.l.service.ProductService - Attempting to update product with ID: 2
+2025-12-17 21:08:04.758 [main] WARN  c.e.l.service.ProductService - Cannot update - Product with ID '2' not found
+2025-12-17 21:08:04.759 [main] ERROR c.e.l.service.ProductService - Failed to update product: Product with ID '2' not found
+2025-12-17 21:08:04.763 [main] ERROR c.e.l.cli.ProductCLI - Error in CLI loop
+com.example.logging_and_observability.execption.ProductNotFoundException: Product with ID '2' not found
+	at com.example.logging_and_observability.service.ProductService.lambda$updateProduct$1(ProductService.java:110)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.example.logging_and_observability.service.ProductService.updateProduct(ProductService.java:108)
+	at com.example.logging_and_observability.cli.ProductCLI.updateProduct(ProductCLI.java:211)
+	at com.example.logging_and_observability.cli.ProductCLI.run(ProductCLI.java:46)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:770)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.logging_and_observability.LoggingAndObservabilityApplication.main(LoggingAndObservabilityApplication.java:20)
+2025-12-17 21:09:02.684 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-17 21:09:13.295 [main] INFO  c.e.l.service.ProductService - Attempting to add new product: mm
+2025-12-17 21:09:13.312 [main] WARN  c.e.l.service.ProductService - Product with ID '1' already exists
+2025-12-17 21:09:13.312 [main] ERROR c.e.l.service.ProductService - Failed to add product: Product with ID '1' already exists
+2025-12-17 21:09:13.313 [main] ERROR c.e.l.cli.ProductCLI - Error in CLI loop
+com.example.logging_and_observability.execption.ProductAlreadyExistsException: Product with ID '1' already exists
+	at com.example.logging_and_observability.service.ProductService.addProduct(ProductService.java:80)
+	at com.example.logging_and_observability.cli.ProductCLI.addNewProduct(ProductCLI.java:170)
+	at com.example.logging_and_observability.cli.ProductCLI.run(ProductCLI.java:44)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:770)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.logging_and_observability.LoggingAndObservabilityApplication.main(LoggingAndObservabilityApplication.java:20)
+2025-12-17 21:09:23.216 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen fetch product by ID
+2025-12-17 21:09:24.967 [main] INFO  c.e.l.service.ProductService - Attempting to fetch product with ID: 2
+2025-12-17 21:09:24.971 [main] WARN  c.e.l.service.ProductService - Product with ID '2' not found
+2025-12-17 21:09:24.971 [main] ERROR c.e.l.service.ProductService - Product not found: Product with ID '2' not found
+2025-12-17 21:09:24.972 [main] ERROR c.e.l.cli.ProductCLI - Error in CLI loop
+com.example.logging_and_observability.execption.ProductNotFoundException: Product with ID '2' not found
+	at com.example.logging_and_observability.service.ProductService.lambda$getProductById$0(ProductService.java:53)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.example.logging_and_observability.service.ProductService.getProductById(ProductService.java:51)
+	at com.example.logging_and_observability.cli.ProductCLI.fetchProductById(ProductCLI.java:141)
+	at com.example.logging_and_observability.cli.ProductCLI.run(ProductCLI.java:43)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:770)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.logging_and_observability.LoggingAndObservabilityApplication.main(LoggingAndObservabilityApplication.java:20)
+2025-12-17 21:09:30.665 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen fetch product by ID
+2025-12-17 21:09:31.683 [main] INFO  c.e.l.service.ProductService - Attempting to fetch product with ID: 1
+2025-12-17 21:09:31.727 [main] INFO  c.e.l.service.ProductService - Successfully retrieved product: kk
+2025-12-17 21:09:38.056 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen requested all products
+2025-12-17 21:09:38.057 [main] INFO  c.e.l.service.ProductService - Fetching all products from repository
+2025-12-17 21:09:38.063 [main] INFO  c.e.l.service.ProductService - Successfully retrieved 1 products in 6ms
+2025-12-17 21:09:47.827 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen delete product
+2025-12-17 21:09:50.315 [main] INFO  c.e.l.service.ProductService - Attempting to delete product with ID: 1
+2025-12-17 21:09:50.348 [main] INFO  c.e.l.service.ProductService - Successfully deleted product with ID: 1
+2025-12-17 21:09:55.600 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen requested all products
+2025-12-17 21:09:55.601 [main] INFO  c.e.l.service.ProductService - Fetching all products from repository
+2025-12-17 21:09:55.604 [main] INFO  c.e.l.service.ProductService - Successfully retrieved 0 products in 2ms
+2025-12-17 21:21:23.930 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 21:21:24.011 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 15824 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 21:21:24.011 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 21:21:24.779 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 21:21:24.859 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 74 ms. Found 1 MongoDB repository interface.
+2025-12-17 21:21:25.836 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 21:21:25.849 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:21:25.851 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 21:21:25.852 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 21:21:25.948 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 21:21:25.948 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1832 ms
+2025-12-17 21:21:26.281 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@6f5d0190, com.mongodb.Jep395RecordCodecProvider@67332b1e, com.mongodb.KotlinCodecProvider@7e34b127]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 21:21:26.301 [cluster-ClusterId{value='694310c63613ff78d182653f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=38311200}
+2025-12-17 21:21:27.388 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:21:27.437 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 21:21:27.447 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.437 seconds (process running for 5.562)
+2025-12-17 21:21:27.450 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI
+2025-12-17 21:21:53.280 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-17 21:21:53.304 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:770)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.logging_and_observability.LoggingAndObservabilityApplication.main(LoggingAndObservabilityApplication.java:20)
+Caused by: java.lang.NumberFormatException: For input string: "mlayeh@gmail.com"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.example.logging_and_observability.cli.ProductCLI.createUser(ProductCLI.java:74)
+	at com.example.logging_and_observability.cli.ProductCLI.run(ProductCLI.java:33)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786)
+	... 14 common frames omitted
+2025-12-17 21:23:38.977 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 21:23:39.054 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 20700 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 21:23:39.055 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 21:23:39.835 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 21:23:39.899 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 1 MongoDB repository interface.
+2025-12-17 21:23:40.834 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 21:23:40.845 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:23:40.848 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 21:23:40.848 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 21:23:40.943 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 21:23:40.944 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1789 ms
+2025-12-17 21:23:41.270 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@789c3057, com.mongodb.Jep395RecordCodecProvider@39941489, com.mongodb.KotlinCodecProvider@6f5d0190]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 21:23:41.290 [cluster-ClusterId{value='6943114d97132d320edb809a', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=35063400}
+2025-12-17 21:23:42.333 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:23:42.376 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 21:23:42.385 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.265 seconds (process running for 5.454)
+2025-12-17 21:23:42.388 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI
+2025-12-17 21:23:53.557 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayeh@gmail.com)
+2025-12-17 21:23:57.690 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-17 21:24:16.733 [main] INFO  c.e.l.service.ProductService - Attempting to add new product: jihen
+2025-12-17 21:24:16.734 [main] DEBUG c.e.l.service.ProductService - Product details: Product{id='1', name='jihen', price=20.0, expirationDate=2026-05-05}
+2025-12-17 21:24:16.897 [main] INFO  c.e.l.service.ProductService - Successfully added product with ID: 1
+2025-12-17 21:24:16.898 [main] DEBUG c.e.l.service.ProductService - Saved product: Product{id='1', name='jihen', price=20.0, expirationDate=2026-05-05}
+2025-12-17 21:25:49.078 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 21:25:49.158 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 24572 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 21:25:49.159 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 21:25:49.936 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 21:25:50.000 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58 ms. Found 1 MongoDB repository interface.
+2025-12-17 21:25:50.967 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 21:25:50.979 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:25:50.981 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 21:25:50.982 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 21:25:51.085 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 21:25:51.085 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1799 ms
+2025-12-17 21:25:51.428 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@3a4aadf8, com.mongodb.Jep395RecordCodecProvider@7bbfc5ff, com.mongodb.KotlinCodecProvider@7a682d35]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 21:25:51.451 [cluster-ClusterId{value='694311cffa86d801b772e118', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=39757800}
+2025-12-17 21:25:52.710 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 21:25:52.758 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 21:25:52.771 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.66 seconds (process running for 5.845)
+2025-12-17 21:25:52.773 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI
+2025-12-17 21:26:10.423 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayeh@gmail.com)
+2025-12-17 21:26:13.963 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-17 22:14:16.062 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 22:14:16.141 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 34992 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 22:14:16.142 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 22:14:16.979 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 22:14:17.073 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 84 ms. Found 1 MongoDB repository interface.
+2025-12-17 22:14:18.095 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 22:14:18.108 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:14:18.111 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 22:14:18.112 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 22:14:18.216 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 22:14:18.217 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1958 ms
+2025-12-17 22:14:18.575 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@5d878b25, com.mongodb.Jep395RecordCodecProvider@28279a49, com.mongodb.KotlinCodecProvider@384fda47]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 22:14:18.612 [cluster-ClusterId{value='69431d2a93b5ed61d38256b6', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=45973300}
+2025-12-17 22:14:19.225 [main] INFO  c.e.l.p.service.UserProfileService - UserProfileService initialized. Profiles directory: user-profiles
+2025-12-17 22:14:19.746 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:14:19.779 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 22:14:19.788 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.702 seconds (process running for 6.295)
+2025-12-17 22:14:19.791 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI with User Profiling
+2025-12-17 22:15:23.378 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayeh@gmail.com)
+2025-12-17 22:15:23.379 [main] DEBUG c.e.l.service.ProductService - Current user set: jihen
+2025-12-17 22:15:37.759 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen viewing their profile
+2025-12-17 22:15:52.020 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-17 22:16:57.853 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 22:16:57.921 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 29388 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 22:16:57.922 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 22:16:58.717 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 22:16:58.824 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 99 ms. Found 1 MongoDB repository interface.
+2025-12-17 22:16:59.984 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 22:16:59.995 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:16:59.998 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 22:16:59.998 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 22:17:00.102 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 22:17:00.102 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2081 ms
+2025-12-17 22:17:00.447 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@575cabf0, com.mongodb.Jep395RecordCodecProvider@433d9680, com.mongodb.KotlinCodecProvider@566e142]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 22:17:00.485 [cluster-ClusterId{value='69431dcc5f21270019b7b0f2', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47213000}
+2025-12-17 22:17:01.033 [main] INFO  c.e.l.p.service.UserProfileService - UserProfileService initialized. Profiles directory: user-profiles
+2025-12-17 22:17:01.514 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:17:01.553 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 22:17:01.562 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.539 seconds (process running for 5.723)
+2025-12-17 22:17:01.564 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI with User Profiling
+2025-12-17 22:17:14.146 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-17 22:17:14.179 [main] ERROR o.s.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Failed to execute CommandLineRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:789)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:770)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.logging_and_observability.LoggingAndObservabilityApplication.main(LoggingAndObservabilityApplication.java:20)
+Caused by: java.lang.NumberFormatException: For input string: "mlayeh"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at com.example.logging_and_observability.cli.ProductCLI.createUser(ProductCLI.java:95)
+	at com.example.logging_and_observability.cli.ProductCLI.run(ProductCLI.java:36)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786)
+	... 14 common frames omitted
+2025-12-17 22:17:22.632 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 22:17:22.744 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 19956 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 22:17:22.746 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 22:17:23.563 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 22:17:23.670 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 100 ms. Found 1 MongoDB repository interface.
+2025-12-17 22:17:24.924 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 22:17:24.936 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:17:24.940 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 22:17:24.941 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 22:17:25.038 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 22:17:25.039 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2186 ms
+2025-12-17 22:17:25.432 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@29bcf51d, com.mongodb.Jep395RecordCodecProvider@1e54a6b1, com.mongodb.KotlinCodecProvider@f238e4f]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 22:17:25.465 [cluster-ClusterId{value='69431de5b91df24b218d438c', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=58904400}
+2025-12-17 22:17:26.011 [main] INFO  c.e.l.p.service.UserProfileService - UserProfileService initialized. Profiles directory: user-profiles
+2025-12-17 22:17:26.508 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:17:26.541 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 22:17:26.551 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.919 seconds (process running for 6.117)
+2025-12-17 22:17:26.554 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI with User Profiling
+2025-12-17 22:17:57.180 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayeh@gmail.com)
+2025-12-17 22:17:57.181 [main] DEBUG c.e.l.service.ProductService - Current user set: jihen
+2025-12-17 22:18:06.388 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen requested all products
+2025-12-17 22:18:06.388 [main] INFO  c.e.l.service.ProductService - Fetching all products from repository
+2025-12-17 22:18:06.388 [main] INFO  c.e.l.p.service.UserProfileService - Created initial profile for user: jihen
+2025-12-17 22:18:06.534 [main] INFO  c.e.l.service.ProductService - Successfully retrieved 0 products in 146ms
+2025-12-17 22:18:06.534 [main] DEBUG c.e.l.service.ProductService - Products: []
+2025-12-17 22:18:09.770 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-17 22:18:20.905 [main] INFO  c.e.l.service.ProductService - Attempting to add new product: kk
+2025-12-17 22:18:20.906 [main] DEBUG c.e.l.service.ProductService - Product details: Product{id='null', name='kk', price=20.0, expirationDate=2026-05-28}
+2025-12-17 22:18:20.934 [main] ERROR c.e.l.service.ProductService - Unexpected error while adding product: kk
+org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.example.logging_and_observability.model.Product
+	at org.springframework.data.mongodb.core.EntityOperations$MappedEntity.assertUpdateableIdIfNotSet(EntityOperations.java:764)
+	at org.springframework.data.mongodb.core.MongoTemplate.doInsert(MongoTemplate.java:1328)
+	at org.springframework.data.mongodb.core.MongoTemplate.insert(MongoTemplate.java:1261)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.save(SimpleMongoRepository.java:95)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:352)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:158)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:249)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.save(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:352)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:249)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.save(Unknown Source)
+	at com.example.logging_and_observability.service.ProductService.addProduct(ProductService.java:148)
+	at com.example.logging_and_observability.cli.ProductCLI.addNewProduct(ProductCLI.java:200)
+	at com.example.logging_and_observability.cli.ProductCLI.run(ProductCLI.java:50)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:770)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.logging_and_observability.LoggingAndObservabilityApplication.main(LoggingAndObservabilityApplication.java:20)
+2025-12-17 22:18:20.938 [main] ERROR c.e.l.cli.ProductCLI - Error in CLI loop
+org.springframework.dao.InvalidDataAccessApiUsageException: Cannot autogenerate id of type java.lang.Long for entity of type com.example.logging_and_observability.model.Product
+	at org.springframework.data.mongodb.core.EntityOperations$MappedEntity.assertUpdateableIdIfNotSet(EntityOperations.java:764)
+	at org.springframework.data.mongodb.core.MongoTemplate.doInsert(MongoTemplate.java:1328)
+	at org.springframework.data.mongodb.core.MongoTemplate.insert(MongoTemplate.java:1261)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.save(SimpleMongoRepository.java:95)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:352)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:277)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:170)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:158)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.mongodb.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:158)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:249)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.save(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:352)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:249)
+	at jdk.proxy2/jdk.proxy2.$Proxy80.save(Unknown Source)
+	at com.example.logging_and_observability.service.ProductService.addProduct(ProductService.java:148)
+	at com.example.logging_and_observability.cli.ProductCLI.addNewProduct(ProductCLI.java:200)
+	at com.example.logging_and_observability.cli.ProductCLI.run(ProductCLI.java:50)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:770)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.logging_and_observability.LoggingAndObservabilityApplication.main(LoggingAndObservabilityApplication.java:20)
+2025-12-17 22:19:09.127 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2025-12-17 22:19:09.198 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Starting LoggingAndObservabilityApplication using Java 21.0.8 with PID 31548 (C:\Users\Jihen\Desktop\Logging and Observability\target\classes started by Jihen in C:\Users\Jihen\Desktop\Logging and Observability)
+2025-12-17 22:19:09.200 [main] INFO  c.e.l.LoggingAndObservabilityApplication - No active profile set, falling back to 1 default profile: "default"
+2025-12-17 22:19:09.978 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2025-12-17 22:19:10.073 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 88 ms. Found 1 MongoDB repository interface.
+2025-12-17 22:19:11.112 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-12-17 22:19:11.123 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:19:11.127 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-12-17 22:19:11.127 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-12-17 22:19:11.233 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-12-17 22:19:11.234 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1921 ms
+2025-12-17 22:19:11.611 [main] INFO  org.mongodb.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.11.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.8+12-LTS-250"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@29bcf51d, com.mongodb.Jep395RecordCodecProvider@1e54a6b1, com.mongodb.KotlinCodecProvider@f238e4f]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2025-12-17 22:19:11.628 [cluster-ClusterId{value='69431e4f1823c22906c615cc', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=40800900}
+2025-12-17 22:19:12.279 [main] INFO  c.e.l.p.service.UserProfileService - UserProfileService initialized. Profiles directory: user-profiles
+2025-12-17 22:19:12.940 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-12-17 22:19:12.998 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-12-17 22:19:13.014 [main] INFO  c.e.l.LoggingAndObservabilityApplication - Started LoggingAndObservabilityApplication in 4.765 seconds (process running for 5.944)
+2025-12-17 22:19:13.018 [main] INFO  c.e.l.cli.ProductCLI - Starting Product Management CLI with User Profiling
+2025-12-17 22:19:26.002 [main] INFO  c.e.l.cli.ProductCLI - User created: jihen (mlayeh@gmail.com)
+2025-12-17 22:19:26.003 [main] DEBUG c.e.l.service.ProductService - Current user set: jihen
+2025-12-17 22:19:28.002 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen add new product
+2025-12-17 22:19:37.397 [main] INFO  c.e.l.service.ProductService - Attempting to add new product: kk
+2025-12-17 22:19:37.398 [main] DEBUG c.e.l.service.ProductService - Product details: Product{id='1', name='kk', price=20.0, expirationDate=2026-05-28}
+2025-12-17 22:19:37.689 [main] INFO  c.e.l.p.service.UserProfileService - Created initial profile for user: jihen
+2025-12-17 22:19:37.689 [main] INFO  c.e.l.service.ProductService - Successfully added product with ID: 1
+2025-12-17 22:19:37.690 [main] DEBUG c.e.l.service.ProductService - Saved product: Product{id='1', name='kk', price=20.0, expirationDate=2026-05-28}
+2025-12-17 22:19:50.317 [main] INFO  c.e.l.cli.ProductCLI - CLI: Displaying all user profiles summary
+2025-12-17 22:20:26.028 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen fetch product by ID
+2025-12-17 22:20:29.769 [main] INFO  c.e.l.service.ProductService - Attempting to fetch product with ID: 3
+2025-12-17 22:20:29.788 [main] WARN  c.e.l.service.ProductService - Product with ID '3' not found
+2025-12-17 22:20:29.788 [main] ERROR c.e.l.service.ProductService - Product not found: Product with ID '3' not found
+2025-12-17 22:20:29.789 [main] ERROR c.e.l.cli.ProductCLI - Error in CLI loop
+com.example.logging_and_observability.execption.ProductNotFoundException: Product with ID '3' not found
+	at com.example.logging_and_observability.service.ProductService.lambda$getProductById$0(ProductService.java:93)
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+	at com.example.logging_and_observability.service.ProductService.getProductById(ProductService.java:91)
+	at com.example.logging_and_observability.cli.ProductCLI.fetchProductById(ProductCLI.java:167)
+	at com.example.logging_and_observability.cli.ProductCLI.run(ProductCLI.java:49)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:786)
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:770)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.base/java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:765)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331)
+	at com.example.logging_and_observability.LoggingAndObservabilityApplication.main(LoggingAndObservabilityApplication.java:20)
+2025-12-17 22:20:40.638 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen fetch product by ID
+2025-12-17 22:20:41.572 [main] INFO  c.e.l.service.ProductService - Attempting to fetch product with ID: 1
+2025-12-17 22:20:41.600 [main] INFO  c.e.l.service.ProductService - Successfully retrieved product: kk
+2025-12-17 22:20:41.601 [main] DEBUG c.e.l.service.ProductService - Product details: Product{id='1', name='kk', price=20.0, expirationDate=2026-05-28}
+2025-12-17 22:20:49.985 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen update product
+2025-12-17 22:21:06.618 [main] INFO  c.e.l.service.ProductService - Attempting to update product with ID: 1
+2025-12-17 22:21:06.619 [main] DEBUG c.e.l.service.ProductService - Updated product data: Product{id='null', name='mm', price=28.0, expirationDate=2026-05-28}
+2025-12-17 22:21:06.624 [main] DEBUG c.e.l.service.ProductService - Current product state: Product{id='1', name='kk', price=20.0, expirationDate=2026-05-28}
+2025-12-17 22:21:06.627 [main] INFO  c.e.l.service.ProductService - Successfully updated product with ID: 1
+2025-12-17 22:21:06.627 [main] DEBUG c.e.l.service.ProductService - Updated product: Product{id='1', name='mm', price=28.0, expirationDate=2026-05-28}
+2025-12-17 22:21:13.358 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen requested all products
+2025-12-17 22:21:13.358 [main] INFO  c.e.l.service.ProductService - Fetching all products from repository
+2025-12-17 22:21:13.364 [main] INFO  c.e.l.service.ProductService - Successfully retrieved 1 products in 6ms
+2025-12-17 22:21:13.364 [main] DEBUG c.e.l.service.ProductService - Products: [Product{id='1', name='mm', price=28.0, expirationDate=2026-05-28}]
+2025-12-17 22:21:17.687 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen fetch product by ID
+2025-12-17 22:21:18.760 [main] INFO  c.e.l.service.ProductService - Attempting to fetch product with ID: 1
+2025-12-17 22:21:18.765 [main] INFO  c.e.l.service.ProductService - Successfully retrieved product: mm
+2025-12-17 22:21:18.765 [main] DEBUG c.e.l.service.ProductService - Product details: Product{id='1', name='mm', price=28.0, expirationDate=2026-05-28}
+2025-12-17 22:21:24.175 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen viewing their profile
+2025-12-17 22:24:23.979 [main] INFO  c.e.l.cli.ProductCLI - CLI: Displaying all user profiles summary
+2025-12-17 22:24:42.203 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen update product
+2025-12-17 22:24:57.716 [main] WARN  c.e.l.cli.ProductCLI - Invalid menu input
+2025-12-17 22:25:03.199 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen delete product
+2025-12-17 22:25:04.419 [main] INFO  c.e.l.service.ProductService - Attempting to delete product with ID: 1
+2025-12-17 22:25:04.423 [main] DEBUG c.e.l.service.ProductService - Deleting product: Product{id='1', name='mm', price=28.0, expirationDate=2026-05-28}
+2025-12-17 22:25:04.433 [main] INFO  c.e.l.service.ProductService - Successfully deleted product with ID: 1
+2025-12-17 22:26:23.868 [main] INFO  c.e.l.cli.ProductCLI - CLI: User jihen exporting their profile
+2025-12-17 22:26:23.984 [main] INFO  c.e.l.p.service.UserProfileService - Exported profile for user jihen to user-profiles/mlayeh_gmail_com_READ_HEAVY_profile.json
