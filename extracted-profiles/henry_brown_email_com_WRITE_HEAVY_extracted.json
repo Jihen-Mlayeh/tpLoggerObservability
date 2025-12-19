@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "henry.brown@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-18 21:37:00",
-  "lastActivityAt" : "2025-12-18 21:37:02",
+  "profileCreatedAt" : "2025-12-19 19:10:45",
+  "lastActivityAt" : "2025-12-19 19:10:47",
   "totalOperations" : 27,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:37:00",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : null,
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
@@ -19,7 +19,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : null,
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
@@ -29,7 +29,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : null,
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
@@ -39,7 +39,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "context set",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
@@ -49,7 +49,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
@@ -59,127 +59,127 @@
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 1",
-    "productPrice" : 380.68377637824295,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 1 | Price: €380.68377637824295 | Action: WRITE"
+    "productPrice" : 308.44402503023326,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 1 | Price: €308.44402503023326 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 2",
-    "productPrice" : 503.0612878457588,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 2 | Price: €503.0612878457588 | Action: WRITE"
+    "productPrice" : 17.52601721109358,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 2 | Price: €17.52601721109358 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 3",
-    "productPrice" : 356.446013204369,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 3 | Price: €356.446013204369 | Action: WRITE"
+    "productPrice" : 436.5091112939885,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 3 | Price: €436.5091112939885 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 4",
-    "productPrice" : 270.5867756770721,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 4 | Price: €270.5867756770721 | Action: WRITE"
+    "productPrice" : 495.12370950375873,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 4 | Price: €495.12370950375873 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 5",
-    "productPrice" : 401.78121553270927,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 5 | Price: €401.78121553270927 | Action: WRITE"
+    "productPrice" : 15.605196130995527,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 5 | Price: €15.605196130995527 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 6",
-    "productPrice" : 476.6864721840407,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 6 | Price: €476.6864721840407 | Action: WRITE"
+    "productPrice" : 15.577987152314389,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 6 | Price: €15.577987152314389 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 7",
-    "productPrice" : 143.05465626958514,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 7 | Price: €143.05465626958514 | Action: WRITE"
+    "productPrice" : 364.8666977295271,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 7 | Price: €364.8666977295271 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 8",
-    "productPrice" : 345.9124674921442,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 8 | Price: €345.9124674921442 | Action: WRITE"
+    "productPrice" : 29.587337474967605,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 8 | Price: €29.587337474967605 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:45",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 9",
-    "productPrice" : 347.18953628154765,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 9 | Price: €347.18953628154765 | Action: WRITE"
+    "productPrice" : 334.5458328740312,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 9 | Price: €334.5458328740312 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 10",
-    "productPrice" : 56.548252222573915,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 10 | Price: €56.548252222573915 | Action: WRITE"
+    "productPrice" : 148.01291208206752,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 10 | Price: €148.01291208206752 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 11",
-    "productPrice" : 216.65055314795887,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 11 | Price: €216.65055314795887 | Action: WRITE"
+    "productPrice" : 96.79934929392714,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 11 | Price: €96.79934929392714 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
     "productName" : "Henry's Stock Item 12",
-    "productPrice" : 320.1244965092198,
-    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 12 | Price: €320.1244965092198 | Action: WRITE"
+    "productPrice" : 114.64942814532708,
+    "additionalInfo" : "Operation: addProduct | User: Henry Brown | Email: henry.brown@email.com | ProductName: Henry's Stock Item 12 | Price: €114.64942814532708 | Action: WRITE"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 600,
@@ -189,7 +189,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:01",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 601,
@@ -199,7 +199,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 602,
@@ -209,7 +209,7 @@
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 600,
@@ -219,7 +219,7 @@
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 601,
@@ -229,7 +229,7 @@
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 602,
@@ -239,7 +239,7 @@
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 603,
@@ -249,7 +249,7 @@
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 604,
@@ -259,7 +259,7 @@
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 605,
@@ -269,7 +269,7 @@
   }, {
     "operationName" : "deleteProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 607,
@@ -279,7 +279,7 @@
   }, {
     "operationName" : "deleteProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 608,
@@ -289,7 +289,7 @@
   }, {
     "operationName" : "deleteProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 609,
@@ -299,7 +299,7 @@
   }, {
     "operationName" : "deleteProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:46",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 610,
@@ -309,7 +309,7 @@
   }, {
     "operationName" : "deleteProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:47",
     "userName" : "Henry Brown",
     "userEmail" : "henry.brown@email.com",
     "productId" : 611,
@@ -319,7 +319,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:37:02",
+    "timestamp" : "2025-12-19 19:10:47",
     "userName" : null,
     "userEmail" : "henry.brown@email.com",
     "productId" : null,
@@ -350,7 +350,7 @@
     "updateProduct" : 6,
     "deleteProduct" : 5
   },
-  "profileType" : "WRITE_HEAVY",
   "profileDescription" : "User who performs mostly WRITE operations (309,1% writes)",
+  "profileType" : "WRITE_HEAVY",
   "mostFrequentWriteOperation" : "updateProduct"
 }

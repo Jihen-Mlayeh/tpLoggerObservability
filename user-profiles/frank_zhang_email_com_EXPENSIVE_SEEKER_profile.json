@@ -3,13 +3,13 @@
   "userName" : "Frank Zhang",
   "userEmail" : "frank.zhang@email.com",
   "userAge" : 29,
-  "profileCreatedAt" : "2025-12-18 21:36:58",
-  "lastActivityAt" : "2025-12-18 21:36:59",
+  "profileCreatedAt" : "2025-12-19 19:10:42",
+  "lastActivityAt" : "2025-12-19 19:10:43",
   "totalOperations" : 37,
   "operationHistory" : [ {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : null,
@@ -19,7 +19,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 15,
@@ -29,7 +29,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 15,
@@ -39,7 +39,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 16,
@@ -49,7 +49,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 16,
@@ -59,7 +59,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 17,
@@ -69,7 +69,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 17,
@@ -79,7 +79,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 18,
@@ -89,7 +89,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 18,
@@ -99,7 +99,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 19,
@@ -109,7 +109,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 19,
@@ -119,7 +119,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 20,
@@ -129,7 +129,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 20,
@@ -139,7 +139,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 15,
@@ -149,7 +149,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:42",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 15,
@@ -159,7 +159,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 16,
@@ -169,7 +169,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 16,
@@ -179,7 +179,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 17,
@@ -189,7 +189,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 17,
@@ -199,7 +199,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 18,
@@ -209,7 +209,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 18,
@@ -219,7 +219,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 19,
@@ -229,7 +229,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 19,
@@ -239,7 +239,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 20,
@@ -249,7 +249,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:58",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 20,
@@ -259,7 +259,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 15,
@@ -269,7 +269,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 15,
@@ -279,7 +279,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 16,
@@ -289,7 +289,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 16,
@@ -299,7 +299,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 17,
@@ -309,7 +309,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 17,
@@ -319,7 +319,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 18,
@@ -329,7 +329,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 18,
@@ -339,7 +339,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 19,
@@ -349,7 +349,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 19,
@@ -359,7 +359,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 20,
@@ -369,7 +369,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 20,
@@ -379,7 +379,7 @@
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:36:59",
+    "timestamp" : "2025-12-19 19:10:43",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : 400,

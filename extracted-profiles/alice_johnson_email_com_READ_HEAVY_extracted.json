@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "alice.johnson@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-18 21:36:48",
-  "lastActivityAt" : "2025-12-18 21:36:50",
+  "profileCreatedAt" : "2025-12-19 19:10:33",
+  "lastActivityAt" : "2025-12-19 19:10:35",
   "totalOperations" : 22,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:36:48",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : null,
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -19,7 +19,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:36:49",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : null,
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -29,7 +29,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:36:49",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : null,
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -39,7 +39,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:36:49",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : "context set",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -49,7 +49,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -59,7 +59,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -69,7 +69,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -79,7 +79,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -89,87 +89,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 17,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 17 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 15,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 15 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 6,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 6 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 18,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 18 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 18,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 18 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 10,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 10 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 4,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 4 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:49",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 2,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 2 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:33",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : 12,
@@ -179,37 +99,17 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:34",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 10,
+    "productId" : 20,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 10 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 20 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:50",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 15,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 15 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:50",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 17,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 17 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:34",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : 5,
@@ -219,7 +119,47 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 18,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 18 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 20,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 20 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 3,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 3 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 4,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 4 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : 7,
@@ -229,17 +169,27 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:34",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 15,
+    "productId" : 5,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 5 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 17,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 17 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : 10,
@@ -247,9 +197,59 @@
     "productPrice" : null,
     "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 10 | Action: READ"
   }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 12,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 12 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 1,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 1 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 16,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 16 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 12,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 12 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-19 19:10:34",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : 3,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Alice Johnson | Email: alice.johnson@email.com | ProductID: 3 | Action: READ"
+  }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:34",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -259,7 +259,7 @@
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:35",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -269,7 +269,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-18 21:36:50",
+    "timestamp" : "2025-12-19 19:10:35",
     "userName" : null,
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -279,11 +279,11 @@
   } ],
   "totalReadOperations" : 20,
   "totalWriteOperations" : 2,
-  "readPercentage" : 0.0,
+  "readPercentage" : 90.9090909090909,
   "getAllProductsCount" : 4,
   "getProductByIdCount" : 16,
   "productViewCount" : { },
   "productNames" : { },
-  "profileType" : "READ_HEAVY",
-  "profileDescription" : "User who performs mostly READ operations (0,0% reads)"
+  "profileDescription" : "User who performs mostly READ operations (90,9% reads)",
+  "profileType" : "READ_HEAVY"
 }

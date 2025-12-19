@@ -3,13 +3,13 @@
   "userName" : "Jack Miller",
   "userEmail" : "jack.miller@email.com",
   "userAge" : 33,
-  "profileCreatedAt" : "2025-12-18 21:37:03",
-  "lastActivityAt" : "2025-12-18 21:37:06",
+  "profileCreatedAt" : "2025-12-19 19:10:48",
+  "lastActivityAt" : "2025-12-19 19:10:50",
   "totalOperations" : 30,
   "operationHistory" : [ {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:03",
+    "timestamp" : "2025-12-19 19:10:48",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -19,7 +19,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:48",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -29,7 +29,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:48",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -39,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:48",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -49,7 +49,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:48",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -59,7 +59,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:48",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -69,7 +69,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:48",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -79,7 +79,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -89,7 +89,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -99,7 +99,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:04",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -109,7 +109,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 1,
@@ -119,7 +119,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 2,
@@ -129,7 +129,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 3,
@@ -139,7 +139,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 4,
@@ -149,7 +149,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 5,
@@ -159,7 +159,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 6,
@@ -169,7 +169,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 7,
@@ -179,7 +179,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 8,
@@ -189,7 +189,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 9,
@@ -199,7 +199,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:49",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 10,
@@ -209,7 +209,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 11,
@@ -219,7 +219,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 11,
@@ -229,7 +229,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 12,
@@ -239,7 +239,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 12,
@@ -249,7 +249,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 13,
@@ -259,7 +259,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 13,
@@ -269,7 +269,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 14,
@@ -279,7 +279,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 14,
@@ -289,7 +289,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 15,
@@ -299,7 +299,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 15,
@@ -309,7 +309,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 16,
@@ -319,7 +319,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 16,
@@ -329,7 +329,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 17,
@@ -339,7 +339,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 17,
@@ -349,7 +349,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 18,
@@ -359,7 +359,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 18,
@@ -369,7 +369,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 19,
@@ -379,7 +379,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 19,
@@ -389,7 +389,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 20,
@@ -399,7 +399,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
+    "timestamp" : "2025-12-19 19:10:50",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 20,

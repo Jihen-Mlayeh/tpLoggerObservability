@@ -35,7 +35,7 @@ public class ReadHeavyProfile extends UserProfile {
 
     @Override
     public String getProfileDescription() {
-        return String.format("User who performs mostly READ operations (%.1f%% reads)", readPercentage);
+        return String.format("User who performs mostly READ operations (%.1f%% reads)", getReadPercentage());
     }
 
     public void incrementReadOperation(String operationName) {
