@@ -14,6 +14,9 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+/**
+ * ProductService with enhanced logging for Question 5
+ */
 @Service
 @RequiredArgsConstructor
 public class ProductService {
@@ -21,246 +24,215 @@ public class ProductService {
     private static final Logger logger = LoggerFactory.getLogger(ProductService.class);
 
     private final ProductRepository productRepository;
-    private final UserProfileService userProfileService; // NEW: Profiling service
+    private final UserProfileService userProfileService;
 
-    // Thread-local to store current user context
     private static final ThreadLocal<User> currentUserContext = new ThreadLocal<>();
 
-    /**
-     * Set the current user for the thread (call this before operations)
-     */
     public void setCurrentUser(User user) {
         currentUserContext.set(user);
-        logger.debug("Current user set: {}", user.getName());
+        logger.info("User context set for: {} ({})", user.getName(), user.getEmail());
     }
 
-    /**
-     * Get the current user from thread-local
-     */
     public User getCurrentUser() {
         return currentUserContext.get();
     }
 
-    /**
-     * Clear the current user (call after operations or in finally block)
-     */
     public void clearCurrentUser() {
+        User user = currentUserContext.get();
+        if (user != null) {
+            logger.info("Clearing user context for: {}", user.getEmail());
+        }
         currentUserContext.remove();
     }
 
-    /**
-     * Get all products from the repository
-     */
     public List<Product> getAllProducts() {
-        logger.info("Fetching all products from repository");
-        long startTime = System.currentTimeMillis();
+        User currentUser = getCurrentUser();
 
-        try {
-            // PROFILING: Log READ operation
-            User currentUser = getCurrentUser();
-            if (currentUser != null) {
-                userProfileService.logOperation(
-                        currentUser,
-                        "getAllProducts",
-                        UserOperationType.READ,
-                        null, null, null
-                );
-            }
+        logger.info("Operation: getAllProducts | User: {} | Email: {} | Action: READ",
+                currentUser != null ? currentUser.getName() : "Unknown",
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
 
-            List<Product> products = productRepository.findAll();
-            long duration = System.currentTimeMillis() - startTime;
+        List<Product> products = productRepository.findAll();
 
-            logger.info("Successfully retrieved {} products in {}ms", products.size(), duration);
-            logger.debug("Products: {}", products);
+        logger.info("Retrieved {} products | User: {} | Operation: READ | Status: SUCCESS",
+                products.size(),
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
 
-            return products;
-        } catch (Exception e) {
-            logger.error("Error occurred while fetching all products", e);
-            throw e;
+        if (currentUser != null) {
+            userProfileService.logOperation(
+                    currentUser,
+                    "getAllProducts",
+                    UserOperationType.READ,
+                    null, null, null
+            );
         }
+
+        return products;
     }
 
-    /**
-     * Get a product by its ID
-     */
     public Product getProductById(Long id) {
-        logger.info("Attempting to fetch product with ID: {}", id);
+        User currentUser = getCurrentUser();
 
-        try {
-            Product product = productRepository.findById(id)
-                    .orElseThrow(() -> {
-                        logger.warn("Product with ID '{}' not found", id);
-                        return new ProductNotFoundException(id);
-                    });
+        logger.info("Operation: getProductById | User: {} | Email: {} | ProductID: {} | Action: READ",
+                currentUser != null ? currentUser.getName() : "Unknown",
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com",
+                id);
 
-            // PROFILING: Log READ operation with product details
-            User currentUser = getCurrentUser();
-            if (currentUser != null) {
+        Product product = productRepository.findById(id)
+                .orElseThrow(() -> {
+                    logger.error("Product not found | ID: {} | User: {} | Status: ERROR",
+                            id, currentUser != null ? currentUser.getEmail() : "unknown");
+                    return new ProductNotFoundException(id);
+                });
+
+        logger.info("Product found | ID: {} | Name: {} | Price: €{} | User: {} | Operation: READ | Status: SUCCESS",
+                product.getId(),
+                product.getName(),
+                product.getPrice(),
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
+
+        if (currentUser != null) {
+            userProfileService.logOperation(
+                    currentUser,
+                    "getProductById",
+                    UserOperationType.READ,
+                    product.getId(),
+                    product.getName(),
+                    product.getPrice()
+            );
+
+            // Check if expensive product
+            if (product.getPrice() >= 100.0) {
+                logger.info("Expensive product view | ID: {} | Name: {} | Price: €{} | User: {} | Operation: SEARCH_EXPENSIVE",
+                        product.getId(),
+                        product.getName(),
+                        product.getPrice(),
+                        currentUser.getEmail());
+
                 userProfileService.logOperation(
                         currentUser,
-                        "getProductById",
-                        UserOperationType.READ,
+                        "viewExpensiveProduct",
+                        UserOperationType.SEARCH_EXPENSIVE,
                         product.getId(),
                         product.getName(),
                         product.getPrice()
                 );
-
-                // Check if expensive product
-                if (product.getPrice() >= 100.0) {
-                    userProfileService.logOperation(
-                            currentUser,
-                            "viewExpensiveProduct",
-                            UserOperationType.SEARCH_EXPENSIVE,
-                            product.getId(),
-                            product.getName(),
-                            product.getPrice()
-                    );
-                }
             }
-
-            logger.info("Successfully retrieved product: {}", product.getName());
-            logger.debug("Product details: {}", product);
-
-            return product;
-        } catch (ProductNotFoundException e) {
-            logger.error("Product not found: {}", e.getMessage());
-            throw e;
-        } catch (Exception e) {
-            logger.error("Unexpected error while fetching product with ID: {}", id, e);
-            throw e;
         }
+
+        return product;
     }
 
-    /**
-     * Add a new product to the repository
-     */
     public Product addProduct(Product product) {
-        logger.info("Attempting to add new product: {}", product.getName());
-        logger.debug("Product details: {}", product);
+        User currentUser = getCurrentUser();
 
-        try {
-            // Check if product with same ID already exists
-            if (product.getId() != null && productRepository.existsById(product.getId())) {
-                logger.warn("Product with ID '{}' already exists", product.getId());
-                throw new ProductAlreadyExistsException(product.getId());
-            }
+        logger.info("Operation: addProduct | User: {} | Email: {} | ProductName: {} | Price: €{} | Action: WRITE",
+                currentUser != null ? currentUser.getName() : "Unknown",
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com",
+                product.getName(),
+                product.getPrice());
 
-            Product savedProduct = productRepository.save(product);
-
-            // PROFILING: Log WRITE operation
-            User currentUser = getCurrentUser();
-            if (currentUser != null) {
-                userProfileService.logOperation(
-                        currentUser,
-                        "addProduct",
-                        UserOperationType.WRITE,
-                        savedProduct.getId(),
-                        savedProduct.getName(),
-                        savedProduct.getPrice()
-                );
-            }
-
-            logger.info("Successfully added product with ID: {}", savedProduct.getId());
-            logger.debug("Saved product: {}", savedProduct);
-
-            return savedProduct;
-        } catch (ProductAlreadyExistsException e) {
-            logger.error("Failed to add product: {}", e.getMessage());
-            throw e;
-        } catch (Exception e) {
-            logger.error("Unexpected error while adding product: {}", product.getName(), e);
-            throw e;
+        if (productRepository.existsById(product.getId())) {
+            logger.error("Product already exists | ID: {} | User: {} | Status: ERROR",
+                    product.getId(),
+                    currentUser != null ? currentUser.getEmail() : "unknown");
+            throw new ProductAlreadyExistsException(product.getId());
         }
+
+        Product saved = productRepository.save(product);
+
+        logger.info("Product added | ID: {} | Name: {} | Price: €{} | User: {} | Operation: WRITE | Status: SUCCESS",
+                saved.getId(),
+                saved.getName(),
+                saved.getPrice(),
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
+
+        if (currentUser != null) {
+            userProfileService.logOperation(
+                    currentUser,
+                    "addProduct",
+                    UserOperationType.WRITE,
+                    saved.getId(),
+                    saved.getName(),
+                    saved.getPrice()
+            );
+        }
+
+        return saved;
     }
 
-    /**
-     * Update an existing product
-     */
     public Product updateProduct(Long id, Product updatedProduct) {
-        logger.info("Attempting to update product with ID: {}", id);
-        logger.debug("Updated product data: {}", updatedProduct);
+        User currentUser = getCurrentUser();
 
-        try {
-            // Check if product exists
-            Product existingProduct = productRepository.findById(id)
-                    .orElseThrow(() -> {
-                        logger.warn("Cannot update - Product with ID '{}' not found", id);
-                        return new ProductNotFoundException(id);
-                    });
+        logger.info("Operation: updateProduct | User: {} | Email: {} | ProductID: {} | Action: WRITE",
+                currentUser != null ? currentUser.getName() : "Unknown",
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com",
+                id);
 
-            logger.debug("Current product state: {}", existingProduct);
+        Product existingProduct = productRepository.findById(id)
+                .orElseThrow(() -> {
+                    logger.error("Product not found for update | ID: {} | User: {} | Status: ERROR",
+                            id, currentUser != null ? currentUser.getEmail() : "unknown");
+                    return new ProductNotFoundException(id);
+                });
 
-            // Update fields
-            existingProduct.setName(updatedProduct.getName());
-            existingProduct.setPrice(updatedProduct.getPrice());
-            existingProduct.setExpirationDate(updatedProduct.getExpirationDate());
+        existingProduct.setName(updatedProduct.getName());
+        existingProduct.setPrice(updatedProduct.getPrice());
+        existingProduct.setExpirationDate(updatedProduct.getExpirationDate());
 
-            Product savedProduct = productRepository.save(existingProduct);
+        Product saved = productRepository.save(existingProduct);
 
-            // PROFILING: Log WRITE operation
-            User currentUser = getCurrentUser();
-            if (currentUser != null) {
-                userProfileService.logOperation(
-                        currentUser,
-                        "updateProduct",
-                        UserOperationType.WRITE,
-                        savedProduct.getId(),
-                        savedProduct.getName(),
-                        savedProduct.getPrice()
-                );
-            }
+        logger.info("Product updated | ID: {} | Name: {} | Price: €{} | User: {} | Operation: WRITE | Status: SUCCESS",
+                saved.getId(),
+                saved.getName(),
+                saved.getPrice(),
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
 
-            logger.info("Successfully updated product with ID: {}", id);
-            logger.debug("Updated product: {}", savedProduct);
-
-            return savedProduct;
-        } catch (ProductNotFoundException e) {
-            logger.error("Failed to update product: {}", e.getMessage());
-            throw e;
-        } catch (Exception e) {
-            logger.error("Unexpected error while updating product with ID: {}", id, e);
-            throw e;
+        if (currentUser != null) {
+            userProfileService.logOperation(
+                    currentUser,
+                    "updateProduct",
+                    UserOperationType.WRITE,
+                    saved.getId(),
+                    saved.getName(),
+                    saved.getPrice()
+            );
         }
+
+        return saved;
     }
 
-    /**
-     * Delete a product by its ID
-     */
     public void deleteProduct(Long id) {
-        logger.info("Attempting to delete product with ID: {}", id);
+        User currentUser = getCurrentUser();
 
-        try {
-            // Check if product exists
-            Product product = productRepository.findById(id)
-                    .orElseThrow(() -> {
-                        logger.warn("Cannot delete - Product with ID '{}' not found", id);
-                        return new ProductNotFoundException(id);
-                    });
+        logger.info("Operation: deleteProduct | User: {} | Email: {} | ProductID: {} | Action: WRITE",
+                currentUser != null ? currentUser.getName() : "Unknown",
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com",
+                id);
 
-            logger.debug("Deleting product: {}", product);
+        Product product = productRepository.findById(id)
+                .orElseThrow(() -> {
+                    logger.error("Product not found for deletion | ID: {} | User: {} | Status: ERROR",
+                            id, currentUser != null ? currentUser.getEmail() : "unknown");
+                    return new ProductNotFoundException(id);
+                });
 
-            productRepository.deleteById(id);
+        productRepository.deleteById(id);
 
-            // PROFILING: Log WRITE operation
-            User currentUser = getCurrentUser();
-            if (currentUser != null) {
-                userProfileService.logOperation(
-                        currentUser,
-                        "deleteProduct",
-                        UserOperationType.WRITE,
-                        id,
-                        product.getName(),
-                        product.getPrice()
-                );
-            }
+        logger.info("Product deleted | ID: {} | Name: {} | User: {} | Operation: WRITE | Status: SUCCESS",
+                id,
+                product.getName(),
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
 
-            logger.info("Successfully deleted product with ID: {}", id);
-        } catch (ProductNotFoundException e) {
-            logger.error("Failed to delete product: {}", e.getMessage());
-            throw e;
-        } catch (Exception e) {
-            logger.error("Unexpected error while deleting product with ID: {}", id, e);
-            throw e;
+        if (currentUser != null) {
+            userProfileService.logOperation(
+                    currentUser,
+                    "deleteProduct",
+                    UserOperationType.WRITE,
+                    product.getId(),
+                    product.getName(),
+                    product.getPrice()
+            );
         }
     }
 }

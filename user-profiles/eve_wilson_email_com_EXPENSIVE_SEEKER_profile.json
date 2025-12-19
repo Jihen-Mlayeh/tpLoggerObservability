@@ -3,13 +3,13 @@
   "userName" : "Eve Wilson",
   "userEmail" : "eve.wilson@email.com",
   "userAge" : 24,
-  "profileCreatedAt" : "2025-12-18 13:13:18",
-  "lastActivityAt" : "2025-12-18 13:13:20",
-  "totalOperations" : 35,
+  "profileCreatedAt" : "2025-12-18 21:36:56",
+  "lastActivityAt" : "2025-12-18 21:36:58",
+  "totalOperations" : 36,
   "operationHistory" : [ {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:18",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : null,
@@ -19,7 +19,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : null,
@@ -29,7 +29,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : null,
@@ -39,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : null,
@@ -49,7 +49,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : null,
@@ -59,7 +59,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : null,
@@ -69,7 +69,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 7,
@@ -79,7 +79,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 8,
@@ -89,7 +89,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 12,
@@ -99,7 +99,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 12,
@@ -109,7 +109,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 13,
@@ -119,7 +119,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:56",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 13,
@@ -129,7 +129,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 15,
@@ -139,7 +139,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 15,
@@ -149,7 +149,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:19",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 7,
@@ -159,7 +159,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 8,
@@ -169,7 +169,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 12,
@@ -179,7 +179,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 12,
@@ -189,7 +189,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 13,
@@ -199,7 +199,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 13,
@@ -209,7 +209,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 15,
@@ -219,7 +219,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 15,
@@ -229,7 +229,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 7,
@@ -239,7 +239,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 8,
@@ -249,7 +249,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 12,
@@ -259,7 +259,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 12,
@@ -269,7 +269,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 13,
@@ -279,7 +279,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 13,
@@ -289,7 +289,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 15,
@@ -299,7 +299,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 15,
@@ -309,7 +309,7 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 6,
@@ -319,27 +319,57 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
-    "productId" : 2,
-    "productName" : "pp",
-    "productPrice" : 101.0,
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
-    "productId" : 2,
-    "productName" : "pp",
-    "productPrice" : 101.0,
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 3,
+    "productName" : "HDMI Cable",
+    "productPrice" : 19.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 12,
+    "productName" : "Mechanical Keyboard RGB",
+    "productPrice" : 149.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 12,
+    "productName" : "Mechanical Keyboard RGB",
+    "productPrice" : 149.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 18,
@@ -349,7 +379,7 @@
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:57",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
     "productId" : 18,
@@ -359,75 +389,55 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:58",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
-    "productId" : 6,
-    "productName" : "Wireless Mouse",
-    "productPrice" : 49.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
-    "userName" : "Eve Wilson",
-    "userEmail" : "eve.wilson@email.com",
-    "productId" : 9,
-    "productName" : "Desk Lamp",
-    "productPrice" : 69.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
-    "userName" : "Eve Wilson",
-    "userEmail" : "eve.wilson@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:58",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:58",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
-    "productId" : 18,
-    "productName" : "Sony A7R V Camera",
-    "productPrice" : 3899.99,
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 13:13:20",
+    "timestamp" : "2025-12-18 21:36:58",
     "userName" : "Eve Wilson",
     "userEmail" : "eve.wilson@email.com",
-    "productId" : 18,
-    "productName" : "Sony A7R V Camera",
-    "productPrice" : 3899.99,
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
     "additionalInfo" : null
   } ],
-  "expensiveProductViews" : 26,
-  "totalProductViews" : 35,
-  "expensiveProductViewPercentage" : 74.28571428571429,
-  "averagePriceViewed" : 979.4762857142856,
+  "expensiveProductViews" : 28,
+  "totalProductViews" : 36,
+  "expensiveProductViewPercentage" : 77.77777777777777,
+  "averagePriceViewed" : 907.7677777777777,
   "highestPriceViewed" : 3899.99,
-  "lowestPriceViewed" : 49.99,
+  "lowestPriceViewed" : 19.99,
   "expensiveProducts" : [ {
     "productId" : 12,
     "productName" : "Mechanical Keyboard RGB",
     "price" : 149.99,
-    "viewCount" : 6
+    "viewCount" : 8
   }, {
     "productId" : 13,
     "productName" : "Noise Cancelling Headphones",
@@ -439,21 +449,21 @@
     "price" : 1299.99,
     "viewCount" : 6
   }, {
-    "productId" : 2,
-    "productName" : "pp",
-    "price" : 101.0,
-    "viewCount" : 2
+    "productId" : 16,
+    "productName" : "MacBook Pro M3 Max",
+    "price" : 2499.99,
+    "viewCount" : 4
   }, {
     "productId" : 18,
     "productName" : "Sony A7R V Camera",
     "price" : 3899.99,
-    "viewCount" : 4
+    "viewCount" : 2
   }, {
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "price" : 3499.99,
+    "productId" : 17,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "price" : 1599.99,
     "viewCount" : 2
   } ],
-  "profileDescription" : "User interested in expensive products (74,3% of views > €100,00)",
+  "profileDescription" : "User interested in expensive products (77,8% of views > €100,00)",
   "profileType" : "EXPENSIVE_SEEKER"
 }

@@ -1,0 +1,221 @@
+{
+  "profileType" : "WRITE_HEAVY",
+  "userName" : "Unknown",
+  "userEmail" : "unknown@email.com",
+  "userAge" : 0,
+  "profileCreatedAt" : "2025-12-18 21:36:48",
+  "lastActivityAt" : "2025-12-18 21:36:48",
+  "totalOperations" : 20,
+  "operationHistory" : [ {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "USB Cable",
+    "productPrice" : 9.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: USB Cable | Price: €9.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Mouse Pad",
+    "productPrice" : 14.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Mouse Pad | Price: €14.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "HDMI Cable",
+    "productPrice" : 19.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: HDMI Cable | Price: €19.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Phone Case",
+    "productPrice" : 24.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Phone Case | Price: €24.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Keyboard Cover",
+    "productPrice" : 29.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Keyboard Cover | Price: €29.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Wireless Mouse",
+    "productPrice" : 49.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Wireless Mouse | Price: €49.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Mechanical Keyboard",
+    "productPrice" : 79.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Mechanical Keyboard | Price: €79.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Webcam HD",
+    "productPrice" : 89.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Webcam HD | Price: €89.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Desk Lamp",
+    "productPrice" : 69.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Desk Lamp | Price: €69.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "USB Hub",
+    "productPrice" : 59.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: USB Hub | Price: €59.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Gaming Monitor",
+    "productPrice" : 299.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Gaming Monitor | Price: €299.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Mechanical Keyboard RGB",
+    "productPrice" : 149.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Mechanical Keyboard RGB | Price: €149.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Noise Cancelling Headphones | Price: €349.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: iPad Pro | Price: €899.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "MacBook Air M3",
+    "productPrice" : 1299.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: MacBook Air M3 | Price: €1299.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "MacBook Pro M3 Max",
+    "productPrice" : 2499.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: MacBook Pro M3 Max | Price: €2499.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: iPhone 15 Pro Max 1TB | Price: €1599.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Sony A7R V Camera | Price: €3899.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: LG OLED TV 77\" | Price: €2999.99 | Action: WRITE"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:48",
+    "userName" : null,
+    "userEmail" : "unknown@email.com",
+    "productId" : null,
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : "Operation: addProduct | User: Unknown | Email: unknown@email.com | ProductName: Gaming Laptop RTX 4090 | Price: €3499.99 | Action: WRITE"
+  } ],
+  "totalReadOperations" : 0,
+  "totalWriteOperations" : 20,
+  "writePercentage" : 0.0,
+  "addProductCount" : 20,
+  "updateProductCount" : 0,
+  "deleteProductCount" : 0,
+  "productsModified" : { },
+  "operationTypeCount" : { },
+  "profileType" : "WRITE_HEAVY",
+  "profileDescription" : "User who performs mostly WRITE operations (0,0% writes)",
+  "mostFrequentWriteOperation" : "None"
+}

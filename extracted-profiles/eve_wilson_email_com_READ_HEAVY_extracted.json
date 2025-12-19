@@ -1,0 +1,349 @@
+{
+  "profileType" : "READ_HEAVY",
+  "userName" : "context set",
+  "userEmail" : "eve.wilson@email.com",
+  "userAge" : 0,
+  "profileCreatedAt" : "2025-12-18 21:36:56",
+  "lastActivityAt" : "2025-12-18 21:36:58",
+  "totalOperations" : 28,
+  "operationHistory" : [ {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : null,
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Attempting to register user: eve.wilson@email.com"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : null,
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Successfully registered user: eve.wilson@email.com with ID: 5"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : null,
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "✅ Created user: Eve Wilson (eve.wilson@email.com)"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "context set",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "User context set for: Eve Wilson (eve.wilson@email.com)"
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getAllProducts | User: Eve Wilson | Email: eve.wilson@email.com | Action: READ"
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getAllProducts | User: Eve Wilson | Email: eve.wilson@email.com | Action: READ"
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getAllProducts | User: Eve Wilson | Email: eve.wilson@email.com | Action: READ"
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getAllProducts | User: Eve Wilson | Email: eve.wilson@email.com | Action: READ"
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getAllProducts | User: Eve Wilson | Email: eve.wilson@email.com | Action: READ"
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getAllProducts | User: Eve Wilson | Email: eve.wilson@email.com | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 7,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 7 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 8,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 8 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 12,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 12 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:56",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 13,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 13 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 15,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 15 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 7,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 7 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 8,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 8 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 12,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 12 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 13,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 13 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 15,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 15 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 7,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 7 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 8,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 8 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 12,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 12 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 13,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 13 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 15,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 15 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 6,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 6 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 16,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 16 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 3,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 3 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 12,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 12 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:57",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 18,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 18 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 16,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 16 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Eve Wilson",
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : 17,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Eve Wilson | Email: eve.wilson@email.com | ProductID: 17 | Action: READ"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : null,
+    "userEmail" : "eve.wilson@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Clearing user context for: eve.wilson@email.com"
+  } ],
+  "totalReadOperations" : 28,
+  "totalWriteOperations" : 0,
+  "readPercentage" : 0.0,
+  "getAllProductsCount" : 6,
+  "getProductByIdCount" : 22,
+  "productViewCount" : { },
+  "productNames" : { },
+  "profileType" : "READ_HEAVY",
+  "profileDescription" : "User who performs mostly READ operations (0,0% reads)"
+}

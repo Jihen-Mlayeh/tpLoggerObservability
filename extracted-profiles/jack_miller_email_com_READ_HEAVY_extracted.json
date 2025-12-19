@@ -1,12 +1,52 @@
 {
-  "profileType" : "EXPENSIVE_SEEKER",
-  "userName" : "Jack Miller",
+  "profileType" : "READ_HEAVY",
+  "userName" : "context set",
   "userEmail" : "jack.miller@email.com",
-  "userAge" : 33,
+  "userAge" : 0,
   "profileCreatedAt" : "2025-12-18 21:37:03",
   "lastActivityAt" : "2025-12-18 21:37:06",
   "totalOperations" : 30,
   "operationHistory" : [ {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:37:03",
+    "userName" : null,
+    "userEmail" : "jack.miller@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Attempting to register user: jack.miller@email.com"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:37:03",
+    "userName" : null,
+    "userEmail" : "jack.miller@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Successfully registered user: jack.miller@email.com with ID: 10"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:37:03",
+    "userName" : null,
+    "userEmail" : "jack.miller@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "✅ Created user: Jack Miller (jack.miller@email.com)"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:37:03",
+    "userName" : "context set",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "User context set for: Jack Miller (jack.miller@email.com)"
+  }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
     "timestamp" : "2025-12-18 21:37:03",
@@ -15,7 +55,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -25,7 +65,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -35,7 +75,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -45,7 +85,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -55,7 +95,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -65,7 +105,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -75,7 +115,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -85,7 +125,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -95,7 +135,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
@@ -105,7 +145,7 @@
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : null
+    "additionalInfo" : "Operation: getAllProducts | User: Jack Miller | Email: jack.miller@email.com | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -113,9 +153,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 1,
-    "productName" : "USB Cable",
-    "productPrice" : 9.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 1 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -123,9 +163,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 2,
-    "productName" : "Mouse Pad",
-    "productPrice" : 14.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 2 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -133,9 +173,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 3,
-    "productName" : "HDMI Cable",
-    "productPrice" : 19.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 3 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -143,9 +183,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 4,
-    "productName" : "Phone Case",
-    "productPrice" : 24.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 4 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -153,9 +193,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 5,
-    "productName" : "Keyboard Cover",
-    "productPrice" : 29.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 5 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -163,9 +203,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 6,
-    "productName" : "Wireless Mouse",
-    "productPrice" : 49.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 6 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -173,9 +213,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 7,
-    "productName" : "Mechanical Keyboard",
-    "productPrice" : 79.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 7 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -183,9 +223,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 8,
-    "productName" : "Webcam HD",
-    "productPrice" : 89.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 8 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -193,9 +233,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 9,
-    "productName" : "Desk Lamp",
-    "productPrice" : 69.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 9 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -203,9 +243,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 10,
-    "productName" : "USB Hub",
-    "productPrice" : 59.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 10 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -213,19 +253,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "productPrice" : 299.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "productPrice" : 299.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 11 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -233,19 +263,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "productPrice" : 149.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "productPrice" : 149.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 12 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -253,19 +273,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 13,
-    "productName" : "Noise Cancelling Headphones",
-    "productPrice" : 349.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 13,
-    "productName" : "Noise Cancelling Headphones",
-    "productPrice" : 349.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 13 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -273,19 +283,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 14,
-    "productName" : "iPad Pro",
-    "productPrice" : 899.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 14,
-    "productName" : "iPad Pro",
-    "productPrice" : 899.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 14 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -293,19 +293,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 15,
-    "productName" : "MacBook Air M3",
-    "productPrice" : 1299.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:05",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 15,
-    "productName" : "MacBook Air M3",
-    "productPrice" : 1299.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 15 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -313,19 +303,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 16,
-    "productName" : "MacBook Pro M3 Max",
-    "productPrice" : 2499.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 16,
-    "productName" : "MacBook Pro M3 Max",
-    "productPrice" : 2499.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 16 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -333,19 +313,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 17,
-    "productName" : "iPhone 15 Pro Max 1TB",
-    "productPrice" : 1599.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 17,
-    "productName" : "iPhone 15 Pro Max 1TB",
-    "productPrice" : 1599.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 17 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -353,19 +323,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 18,
-    "productName" : "Sony A7R V Camera",
-    "productPrice" : 3899.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 18,
-    "productName" : "Sony A7R V Camera",
-    "productPrice" : 3899.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 18 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -373,19 +333,9 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 19,
-    "productName" : "LG OLED TV 77\"",
-    "productPrice" : 2999.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-18 21:37:06",
-    "userName" : "Jack Miller",
-    "userEmail" : "jack.miller@email.com",
-    "productId" : 19,
-    "productName" : "LG OLED TV 77\"",
-    "productPrice" : 2999.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 19 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
@@ -393,77 +343,27 @@
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
-    "additionalInfo" : null
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 20 | Action: READ"
   }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
+    "operationName" : null,
+    "operationType" : null,
     "timestamp" : "2025-12-18 21:37:06",
-    "userName" : "Jack Miller",
+    "userName" : null,
     "userEmail" : "jack.miller@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
-    "additionalInfo" : null
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Clearing user context for: jack.miller@email.com"
   } ],
-  "expensiveProductViews" : 20,
-  "totalProductViews" : 30,
-  "expensiveProductViewPercentage" : 66.66666666666667,
-  "averagePriceViewed" : 1181.6566666666665,
-  "highestPriceViewed" : 3899.99,
-  "lowestPriceViewed" : 9.99,
-  "expensiveProducts" : [ {
-    "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "price" : 299.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "price" : 149.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 13,
-    "productName" : "Noise Cancelling Headphones",
-    "price" : 349.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 14,
-    "productName" : "iPad Pro",
-    "price" : 899.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 15,
-    "productName" : "MacBook Air M3",
-    "price" : 1299.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 16,
-    "productName" : "MacBook Pro M3 Max",
-    "price" : 2499.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 17,
-    "productName" : "iPhone 15 Pro Max 1TB",
-    "price" : 1599.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 18,
-    "productName" : "Sony A7R V Camera",
-    "price" : 3899.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 19,
-    "productName" : "LG OLED TV 77\"",
-    "price" : 2999.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "price" : 3499.99,
-    "viewCount" : 2
-  } ],
-  "profileDescription" : "User interested in expensive products (66,7% of views > €100,00)",
-  "profileType" : "EXPENSIVE_SEEKER"
+  "totalReadOperations" : 30,
+  "totalWriteOperations" : 0,
+  "readPercentage" : 0.0,
+  "getAllProductsCount" : 10,
+  "getProductByIdCount" : 20,
+  "productViewCount" : { },
+  "productNames" : { },
+  "profileType" : "READ_HEAVY",
+  "profileDescription" : "User who performs mostly READ operations (0,0% reads)"
 }

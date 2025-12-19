@@ -74,4 +74,11 @@ public class ReadHeavyProfile extends UserProfile {
                 .limit(limit)
                 .collect(HashMap::new, (m, e) -> m.put(e.getKey(), e.getValue()), HashMap::putAll);
     }
+
+    public double getReadPercentage() {
+        if (totalOperations > 0) {
+            return (totalReadOperations * 100.0) / totalOperations;
+        }
+        return 0.0;
+    }
 }

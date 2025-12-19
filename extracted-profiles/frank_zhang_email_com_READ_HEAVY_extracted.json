@@ -1,0 +1,269 @@
+{
+  "profileType" : "READ_HEAVY",
+  "userName" : "context set",
+  "userEmail" : "frank.zhang@email.com",
+  "userAge" : 0,
+  "profileCreatedAt" : "2025-12-18 21:36:58",
+  "lastActivityAt" : "2025-12-18 21:36:59",
+  "totalOperations" : 20,
+  "operationHistory" : [ {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : null,
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Attempting to register user: frank.zhang@email.com"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : null,
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Successfully registered user: frank.zhang@email.com with ID: 6"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : null,
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "✅ Created user: Frank Zhang (frank.zhang@email.com)"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "context set",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "User context set for: Frank Zhang (frank.zhang@email.com)"
+  }, {
+    "operationName" : "getAllProducts",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getAllProducts | User: Frank Zhang | Email: frank.zhang@email.com | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 15,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 15 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 16,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 16 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 17,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 17 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 18,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 18 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 19,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 19 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 20,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 20 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 15,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 15 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 16,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 16 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 17,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 17 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 18,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 18 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 19,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 19 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:58",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 20,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 20 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:59",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 15,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 15 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:59",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 16,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 16 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:59",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 17,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 17 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:59",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 18,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 18 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:59",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 19,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 19 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-18 21:36:59",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : 20,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 20 | Action: READ"
+  }, {
+    "operationName" : "addProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-18 21:36:59",
+    "userName" : "Frank Zhang",
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : null,
+    "productName" : "Frank's Custom Gaming PC",
+    "productPrice" : 3999.99,
+    "additionalInfo" : "Operation: addProduct | User: Frank Zhang | Email: frank.zhang@email.com | ProductName: Frank's Custom Gaming PC | Price: €3999.99 | Action: WRITE"
+  }, {
+    "operationName" : null,
+    "operationType" : null,
+    "timestamp" : "2025-12-18 21:36:59",
+    "userName" : null,
+    "userEmail" : "frank.zhang@email.com",
+    "productId" : null,
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Clearing user context for: frank.zhang@email.com"
+  } ],
+  "totalReadOperations" : 19,
+  "totalWriteOperations" : 1,
+  "readPercentage" : 0.0,
+  "getAllProductsCount" : 1,
+  "getProductByIdCount" : 18,
+  "productViewCount" : { },
+  "productNames" : { },
+  "profileType" : "READ_HEAVY",
+  "profileDescription" : "User who performs mostly READ operations (0,0% reads)"
+}
