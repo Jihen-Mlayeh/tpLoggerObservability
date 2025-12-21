@@ -57,3 +57,41 @@ com.example.logging_and_observability.execption.UserNotFoundException: User with
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 2025-12-21 12:43:30.801 [http-nio-8080-exec-8] ERROR c.e.l.service.ProductService - Product not found for deletion | ID: 694749025c5b6140934c0433 | User: unknown | Status: ERROR
+2025-12-21 17:17:59.425 [http-nio-8080-exec-10] ERROR c.e.l.service.ProductService - Product not found | ID: invalid-id-99999 | User: error@productmanager.com | Status: ERROR
+2025-12-21 17:18:01.461 [http-nio-8080-exec-4] ERROR c.e.l.service.ProductService - Product not found for deletion | ID: invalid-id-88888 | User: error@productmanager.com | Status: ERROR
+2025-12-21 17:37:52.094 [main] ERROR o.s.b.w.e.tomcat.TomcatStarter - Error starting Tomcat context. Exception: org.springframework.beans.factory.UnsatisfiedDependencyException. Message: Error creating bean with name 'otelWebMvcFilter' defined in class path resource [io/opentelemetry/instrumentation/spring/autoconfigure/internal/instrumentation/webmvc/SpringWebMvc6InstrumentationAutoConfiguration.class]: Unsatisfied dependency expressed through method 'otelWebMvcFilter' parameter 0: Error creating bean with name 'openTelemetry' defined in class path resource [com/example/logging_and_observability/config/OpenTelemetryConfig.class]: Failed to instantiate [io.opentelemetry.api.OpenTelemetry]: Factory method 'openTelemetry' threw exception with message: 'io.opentelemetry.exporter.internal.http.HttpExporterBuilder io.opentelemetry.exporter.internal.http.HttpExporterBuilder.addConstantHeaders(java.lang.String, java.lang.String)'
+2025-12-21 17:37:52.262 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    io.opentelemetry.exporter.otlp.http.trace.OtlpHttpSpanExporterBuilder.<init>(OtlpHttpSpanExporterBuilder.java:46)
+
+The following method did not exist:
+
+    'io.opentelemetry.exporter.internal.http.HttpExporterBuilder io.opentelemetry.exporter.internal.http.HttpExporterBuilder.addConstantHeaders(java.lang.String, java.lang.String)'
+
+The calling method's class, io.opentelemetry.exporter.otlp.http.trace.OtlpHttpSpanExporterBuilder, was loaded from the following location:
+
+    jar:file:/C:/Users/Jihen/.m2/repository/io/opentelemetry/opentelemetry-exporter-otlp/1.44.1/opentelemetry-exporter-otlp-1.44.1.jar!/io/opentelemetry/exporter/otlp/http/trace/OtlpHttpSpanExporterBuilder.class
+
+The called method's class, io.opentelemetry.exporter.internal.http.HttpExporterBuilder, is available from the following locations:
+
+    jar:file:/C:/Users/Jihen/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.31.0/opentelemetry-exporter-common-1.31.0.jar!/io/opentelemetry/exporter/internal/http/HttpExporterBuilder.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    io.opentelemetry.exporter.internal.http.HttpExporterBuilder: file:/C:/Users/Jihen/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.31.0/opentelemetry-exporter-common-1.31.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes io.opentelemetry.exporter.otlp.http.trace.OtlpHttpSpanExporterBuilder and io.opentelemetry.exporter.internal.http.HttpExporterBuilder
+
+2025-12-21 17:53:53.942 [http-nio-8080-exec-9] ERROR c.e.l.service.ProductService - Product not found | ID: invalid-id-99999 | User: error@productmanager.com | Status: ERROR
+2025-12-21 17:53:56.015 [http-nio-8080-exec-3] ERROR c.e.l.service.ProductService - Product not found for deletion | ID: invalid-id-88888 | User: error@productmanager.com | Status: ERROR

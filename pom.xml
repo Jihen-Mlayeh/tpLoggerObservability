@@ -15,6 +15,8 @@
         <java.version>17</java.version>
         <lombok.version>1.18.30</lombok.version>
         <spoon.version>10.4.2</spoon.version>
+        <!-- OpenTelemetry -->
+        <opentelemetry.version>1.32.0</opentelemetry.version>
     </properties>
     <dependencies>
         <!--  CORE SPRING BOOT (LOGGING INCLUS)  -->
@@ -65,6 +67,36 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- OpenTelemetry API -->
+        <dependency>
+            <groupId>io.opentelemetry</groupId>
+            <artifactId>opentelemetry-api</artifactId>
+            <version>${opentelemetry.version}</version>
+        </dependency>
+
+        <!-- OpenTelemetry SDK -->
+        <dependency>
+            <groupId>io.opentelemetry</groupId>
+            <artifactId>opentelemetry-sdk</artifactId>
+            <version>${opentelemetry.version}</version>
+        </dependency>
+
+        <!-- OpenTelemetry OTLP Exporter -->
+        <dependency>
+            <groupId>io.opentelemetry</groupId>
+            <artifactId>opentelemetry-exporter-otlp</artifactId>
+            <version>${opentelemetry.version}</version>
+        </dependency>
+
+        <!-- OpenTelemetry Semconv (pour ResourceAttributes) -->
+        <dependency>
+            <groupId>io.opentelemetry.semconv</groupId>
+            <artifactId>opentelemetry-semconv</artifactId>
+            <version>1.21.0-alpha</version>
+        </dependency>
+
+
+
     </dependencies>
     <build>
         <plugins>
