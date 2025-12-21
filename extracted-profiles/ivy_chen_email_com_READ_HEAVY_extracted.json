@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "ivy.chen@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-19 19:10:47",
-  "lastActivityAt" : "2025-12-19 19:10:48",
-  "totalOperations" : 19,
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:26",
+  "totalOperations" : 25,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "ivy.chen@email.com",
     "productId" : null,
@@ -19,27 +19,17 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "ivy.chen@email.com",
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Successfully registered user: ivy.chen@email.com with ID: 9"
+    "additionalInfo" : "Successfully registered user: ivy.chen@email.com with ID: 694749025c5b6140934c0451"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:47",
-    "userName" : null,
-    "userEmail" : "ivy.chen@email.com",
-    "productId" : null,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "✅ Created user: Ivy Chen (ivy.chen@email.com)"
-  }, {
-    "operationName" : null,
-    "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "context set",
     "userEmail" : "ivy.chen@email.com",
     "productId" : null,
@@ -49,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
     "productId" : null,
@@ -59,177 +49,237 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 14,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 14 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c041f | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 15,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0420 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 14,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 14 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 15,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c041f | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0420 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 14,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 14 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 15,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:47",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 6,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 6 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c041f | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 7,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 7 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0420 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 8,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 8 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 9,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 9 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
-    "productId" : 10,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 10 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : "694749015",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : "694749015",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0417 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : "694749015",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0418 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : "694749015",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c0419 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : "694749015",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c041a | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Ivy Chen",
+    "userEmail" : "ivy.chen@email.com",
+    "productId" : "694749015",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Ivy Chen | Email: ivy.chen@email.com | ProductID: 694749015c5b6140934c041b | Action: READ"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Ivy Chen",
     "userEmail" : "ivy.chen@email.com",
     "productId" : null,
@@ -239,7 +289,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "ivy.chen@email.com",
     "productId" : null,
@@ -247,13 +297,13 @@
     "productPrice" : null,
     "additionalInfo" : "Clearing user context for: ivy.chen@email.com"
   } ],
-  "totalReadOperations" : 18,
+  "totalReadOperations" : 24,
   "totalWriteOperations" : 1,
-  "readPercentage" : 94.73684210526316,
+  "readPercentage" : 96.0,
   "getAllProductsCount" : 1,
-  "getProductByIdCount" : 17,
+  "getProductByIdCount" : 23,
   "productViewCount" : { },
   "productNames" : { },
-  "profileDescription" : "User who performs mostly READ operations (94,7% reads)",
-  "profileType" : "READ_HEAVY"
+  "profileType" : "READ_HEAVY",
+  "profileDescription" : "User who performs mostly READ operations (96,0% reads)"
 }

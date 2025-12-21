@@ -23,7 +23,7 @@ public class LogEntry {
     private String userEmail;       // User email
     private String action;          // Specific action: getAllProducts, addProduct, etc.
     private String resourceType;    // PRODUCT, USER, PROFILE
-    private Long resourceId;        // ID of the resource
+    private String resourceId;        // ID of the resource
     private String resourceName;    // Name of the resource
     private Double resourcePrice;   // Price (for products)
     private String operationType;   // READ, WRITE, SEARCH_EXPENSIVE
@@ -91,7 +91,7 @@ public class LogEntry {
             return this;
         }
 
-        public Builder resourceId(Long resourceId) {
+        public Builder resourceId(String resourceId) {
             logEntry.resourceId = resourceId;
             return this;
         }

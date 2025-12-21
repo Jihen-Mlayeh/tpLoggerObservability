@@ -3,13 +3,13 @@
   "userName" : "Bob Smith",
   "userEmail" : "bob.smith@email.com",
   "userAge" : 35,
-  "profileCreatedAt" : "2025-12-19 19:10:35",
-  "lastActivityAt" : "2025-12-19 19:10:36",
-  "totalOperations" : 27,
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:26",
+  "totalOperations" : 24,
   "operationHistory" : [ {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
@@ -19,341 +19,316 @@
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 200,
+    "productId" : "694749025c5b6140934c042a",
     "productName" : "Bob's Product 1",
-    "productPrice" : 234.12927104057215,
+    "productPrice" : 65.11008073930238,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 201,
+    "productId" : "694749025c5b6140934c042b",
     "productName" : "Bob's Product 2",
-    "productPrice" : 212.44906445331745,
+    "productPrice" : 115.58009881882157,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 202,
+    "productId" : "694749025c5b6140934c042c",
     "productName" : "Bob's Product 3",
-    "productPrice" : 100.93666409739659,
+    "productPrice" : 168.45601896576795,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 203,
+    "productId" : "694749025c5b6140934c042d",
     "productName" : "Bob's Product 4",
-    "productPrice" : 82.25326181598238,
+    "productPrice" : 112.83380698864647,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 204,
+    "productId" : "694749025c5b6140934c042e",
     "productName" : "Bob's Product 5",
-    "productPrice" : 130.7514613091401,
+    "productPrice" : 127.84463661429315,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 205,
+    "productId" : "694749025c5b6140934c042f",
     "productName" : "Bob's Product 6",
-    "productPrice" : 83.92976294709855,
+    "productPrice" : 226.13684930014043,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 206,
+    "productId" : "694749025c5b6140934c0430",
     "productName" : "Bob's Product 7",
-    "productPrice" : 179.64072190413555,
+    "productPrice" : 133.98252671299468,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 207,
+    "productId" : "694749025c5b6140934c0431",
     "productName" : "Bob's Product 8",
-    "productPrice" : 191.99935616366045,
+    "productPrice" : 64.48060943373774,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 208,
+    "productId" : "694749025c5b6140934c0432",
     "productName" : "Bob's Product 9",
-    "productPrice" : 192.82120596515855,
+    "productPrice" : 143.4695820164141,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 209,
+    "productId" : "694749025c5b6140934c0433",
     "productName" : "Bob's Product 10",
-    "productPrice" : 81.83702322443443,
+    "productPrice" : 237.08929097911204,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 5,
-    "productName" : "Keyboard Cover",
-    "productPrice" : 29.99,
+    "productId" : "694749015c5b6140934c0412",
+    "productName" : "USB Cable",
+    "productPrice" : 9.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 18,
-    "productName" : "Sony A7R V Camera",
-    "productPrice" : 3899.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 18,
-    "productName" : "Sony A7R V Camera",
-    "productPrice" : 3899.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 17,
-    "productName" : "iPhone 15 Pro Max 1TB",
-    "productPrice" : 1599.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 17,
-    "productName" : "iPhone 15 Pro Max 1TB",
-    "productPrice" : 1599.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "productPrice" : 299.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "productPrice" : 299.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "updateProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 200,
-    "productName" : "Bob's Updated Product 1",
-    "productPrice" : 219.43630398307897,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "updateProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 201,
-    "productName" : "Bob's Updated Product 2",
-    "productPrice" : 184.12429672232594,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "updateProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 202,
-    "productName" : "Bob's Updated Product 3",
-    "productPrice" : 200.09236487031077,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "updateProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 203,
-    "productName" : "Bob's Updated Product 4",
-    "productPrice" : 237.53093930175393,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "updateProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 204,
-    "productName" : "Bob's Updated Product 5",
-    "productPrice" : 197.881857439879,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 207,
-    "productName" : "Bob's Product 8",
-    "productPrice" : 191.99935616366045,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 208,
-    "productName" : "Bob's Product 9",
-    "productPrice" : 192.82120596515855,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 209,
-    "productName" : "Bob's Product 10",
-    "productPrice" : 81.83702322443443,
-    "additionalInfo" : null
-  } ],
-  "expensiveProductViews" : 22,
-  "totalProductViews" : 27,
-  "expensiveProductViewPercentage" : 81.48148148148148,
-  "averagePriceViewed" : 800.9770792811665,
-  "highestPriceViewed" : 3899.99,
-  "lowestPriceViewed" : 29.99,
-  "expensiveProducts" : [ {
-    "productId" : 200,
-    "productName" : "Bob's Product 1",
-    "price" : 234.12927104057215,
-    "viewCount" : 2
-  }, {
-    "productId" : 201,
-    "productName" : "Bob's Product 2",
-    "price" : 212.44906445331745,
-    "viewCount" : 2
-  }, {
-    "productId" : 202,
+    "productId" : "694749025c5b6140934c042c",
     "productName" : "Bob's Product 3",
-    "price" : 100.93666409739659,
-    "viewCount" : 2
+    "productPrice" : 168.45601896576795,
+    "additionalInfo" : null
   }, {
-    "productId" : 204,
-    "productName" : "Bob's Product 5",
-    "price" : 130.7514613091401,
-    "viewCount" : 2
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749025c5b6140934c042c",
+    "productName" : "Bob's Product 3",
+    "productPrice" : 168.45601896576795,
+    "additionalInfo" : null
   }, {
-    "productId" : 206,
-    "productName" : "Bob's Product 7",
-    "price" : 179.64072190413555,
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749025c5b6140934c042f",
+    "productName" : "Bob's Product 6",
+    "productPrice" : 226.13684930014043,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749025c5b6140934c042f",
+    "productName" : "Bob's Product 6",
+    "productPrice" : 226.13684930014043,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749025c5b6140934c042d",
+    "productName" : "Bob's Product 4",
+    "productPrice" : 112.83380698864647,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749025c5b6140934c042d",
+    "productName" : "Bob's Product 4",
+    "productPrice" : 112.83380698864647,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749015c5b6140934c041f",
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749015c5b6140934c041f",
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749015c5b6140934c041c",
+    "productName" : "Bob's Updated Product 1",
+    "productPrice" : 239.57181331598974,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749015c5b6140934c041c",
+    "productName" : "Bob's Updated Product 2",
+    "productPrice" : 170.8582674719327,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749015c5b6140934c0417",
+    "productName" : "Bob's Updated Product 3",
+    "productPrice" : 209.62812361324893,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749015c5b6140934c0418",
+    "productName" : "Bob's Updated Product 4",
+    "productPrice" : 227.4380298402378,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "updateProduct",
+    "operationType" : "WRITE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Bob Smith",
+    "userEmail" : "bob.smith@email.com",
+    "productId" : "694749015c5b6140934c0415",
+    "productName" : "Bob's Updated Product 5",
+    "productPrice" : 153.62505491546113,
+    "additionalInfo" : null
+  } ],
+  "expensiveProductViews" : 21,
+  "totalProductViews" : 24,
+  "expensiveProductViewPercentage" : 87.5,
+  "averagePriceViewed" : 217.53867250980045,
+  "highestPriceViewed" : 899.99,
+  "lowestPriceViewed" : 9.99,
+  "expensiveProducts" : [ {
+    "productId" : "694749025c5b6140934c042b",
+    "productName" : "Bob's Product 2",
+    "price" : 115.58009881882157,
     "viewCount" : 1
   }, {
-    "productId" : 207,
-    "productName" : "Bob's Product 8",
-    "price" : 191.99935616366045,
-    "viewCount" : 2
+    "productId" : "694749025c5b6140934c042c",
+    "productName" : "Bob's Product 3",
+    "price" : 168.45601896576795,
+    "viewCount" : 3
   }, {
-    "productId" : 208,
+    "productId" : "694749025c5b6140934c042d",
+    "productName" : "Bob's Product 4",
+    "price" : 112.83380698864647,
+    "viewCount" : 3
+  }, {
+    "productId" : "694749025c5b6140934c042e",
+    "productName" : "Bob's Product 5",
+    "price" : 127.84463661429315,
+    "viewCount" : 1
+  }, {
+    "productId" : "694749025c5b6140934c042f",
+    "productName" : "Bob's Product 6",
+    "price" : 226.13684930014043,
+    "viewCount" : 3
+  }, {
+    "productId" : "694749025c5b6140934c0430",
+    "productName" : "Bob's Product 7",
+    "price" : 133.98252671299468,
+    "viewCount" : 1
+  }, {
+    "productId" : "694749025c5b6140934c0432",
     "productName" : "Bob's Product 9",
-    "price" : 192.82120596515855,
+    "price" : 143.4695820164141,
+    "viewCount" : 1
+  }, {
+    "productId" : "694749025c5b6140934c0433",
+    "productName" : "Bob's Product 10",
+    "price" : 237.08929097911204,
+    "viewCount" : 1
+  }, {
+    "productId" : "694749015c5b6140934c041f",
+    "productName" : "iPad Pro",
+    "price" : 899.99,
     "viewCount" : 2
   }, {
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "price" : 3499.99,
+    "productId" : "694749015c5b6140934c041c",
+    "productName" : "Bob's Updated Product 1",
+    "price" : 239.57181331598974,
     "viewCount" : 2
   }, {
-    "productId" : 18,
-    "productName" : "Sony A7R V Camera",
-    "price" : 3899.99,
-    "viewCount" : 2
+    "productId" : "694749015c5b6140934c0417",
+    "productName" : "Bob's Updated Product 3",
+    "price" : 209.62812361324893,
+    "viewCount" : 1
   }, {
-    "productId" : 17,
-    "productName" : "iPhone 15 Pro Max 1TB",
-    "price" : 1599.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "price" : 299.99,
-    "viewCount" : 2
-  }, {
-    "productId" : 203,
+    "productId" : "694749015c5b6140934c0418",
     "productName" : "Bob's Updated Product 4",
-    "price" : 237.53093930175393,
+    "price" : 227.4380298402378,
+    "viewCount" : 1
+  }, {
+    "productId" : "694749015c5b6140934c0415",
+    "productName" : "Bob's Updated Product 5",
+    "price" : 153.62505491546113,
     "viewCount" : 1
   } ],
-  "profileDescription" : "User interested in expensive products (81,5% of views > €100,00)",
+  "profileDescription" : "User interested in expensive products (87,5% of views > €100,00)",
   "profileType" : "EXPENSIVE_SEEKER"
 }

@@ -10,7 +10,7 @@ import java.util.Optional;
  * Repository for User persistence in MongoDB
  */
 @Repository
-public interface UserRepository extends MongoRepository<User, Long> {
+public interface UserRepository extends MongoRepository<User, String> {
 
     /**
      * Find user by email (unique)

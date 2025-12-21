@@ -3,13 +3,13 @@
   "userName" : "Jack Miller",
   "userEmail" : "jack.miller@email.com",
   "userAge" : 33,
-  "profileCreatedAt" : "2025-12-19 19:10:48",
-  "lastActivityAt" : "2025-12-19 19:10:50",
-  "totalOperations" : 30,
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:27",
+  "totalOperations" : 93,
   "operationHistory" : [ {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -19,7 +19,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -29,7 +29,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -39,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -49,7 +49,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -59,7 +59,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -69,7 +69,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -79,7 +79,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -89,7 +89,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -99,7 +99,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -109,361 +109,1126 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 1,
+    "productId" : "694749015c5b6140934c0412",
     "productName" : "USB Cable",
     "productPrice" : 9.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 2,
-    "productName" : "Mouse Pad",
-    "productPrice" : 14.99,
+    "productId" : "694749015c5b6140934c0413",
+    "productName" : "Henry's Updated Stock 4",
+    "productPrice" : 335.65795003221496,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749015c5b6140934c0413",
+    "productName" : "Henry's Updated Stock 4",
+    "productPrice" : 335.65795003221496,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 3,
+    "productId" : "694749015c5b6140934c0414",
     "productName" : "HDMI Cable",
     "productPrice" : 19.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 4,
-    "productName" : "Phone Case",
-    "productPrice" : 24.99,
+    "productId" : "694749015c5b6140934c0415",
+    "productName" : "Bob's Updated Product 5",
+    "productPrice" : 153.62505491546113,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749015c5b6140934c0415",
+    "productName" : "Bob's Updated Product 5",
+    "productPrice" : 153.62505491546113,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 5,
+    "productId" : "694749015c5b6140934c0416",
     "productName" : "Keyboard Cover",
     "productPrice" : 29.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 6,
-    "productName" : "Wireless Mouse",
-    "productPrice" : 49.99,
+    "productId" : "694749015c5b6140934c0417",
+    "productName" : "Henry's Updated Stock 6",
+    "productPrice" : 32.70968303326274,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 7,
-    "productName" : "Mechanical Keyboard",
-    "productPrice" : 79.99,
+    "productId" : "694749015c5b6140934c0418",
+    "productName" : "Bob's Updated Product 4",
+    "productPrice" : 227.4380298402378,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749015c5b6140934c0418",
+    "productName" : "Bob's Updated Product 4",
+    "productPrice" : 227.4380298402378,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 8,
+    "productId" : "694749015c5b6140934c0419",
     "productName" : "Webcam HD",
     "productPrice" : 89.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 9,
+    "productId" : "694749015c5b6140934c041a",
     "productName" : "Desk Lamp",
     "productPrice" : 69.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 10,
+    "productId" : "694749015c5b6140934c041b",
     "productName" : "USB Hub",
     "productPrice" : 59.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "productPrice" : 299.99,
+    "productId" : "694749015c5b6140934c041c",
+    "productName" : "Bob's Updated Product 2",
+    "productPrice" : 170.8582674719327,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "productPrice" : 299.99,
+    "productId" : "694749015c5b6140934c041c",
+    "productName" : "Bob's Updated Product 2",
+    "productPrice" : 170.8582674719327,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 12,
+    "productId" : "694749015c5b6140934c041d",
     "productName" : "Mechanical Keyboard RGB",
     "productPrice" : 149.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 12,
+    "productId" : "694749015c5b6140934c041d",
     "productName" : "Mechanical Keyboard RGB",
     "productPrice" : 149.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 13,
+    "productId" : "694749015c5b6140934c041e",
     "productName" : "Noise Cancelling Headphones",
     "productPrice" : 349.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 13,
+    "productId" : "694749015c5b6140934c041e",
     "productName" : "Noise Cancelling Headphones",
     "productPrice" : 349.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 14,
+    "productId" : "694749015c5b6140934c041f",
     "productName" : "iPad Pro",
     "productPrice" : 899.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 14,
+    "productId" : "694749015c5b6140934c041f",
     "productName" : "iPad Pro",
     "productPrice" : 899.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 15,
+    "productId" : "694749015c5b6140934c0420",
     "productName" : "MacBook Air M3",
     "productPrice" : 1299.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 15,
+    "productId" : "694749015c5b6140934c0420",
     "productName" : "MacBook Air M3",
     "productPrice" : 1299.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 16,
+    "productId" : "694749015c5b6140934c0421",
     "productName" : "MacBook Pro M3 Max",
     "productPrice" : 2499.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 16,
+    "productId" : "694749015c5b6140934c0421",
     "productName" : "MacBook Pro M3 Max",
     "productPrice" : 2499.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 17,
+    "productId" : "694749015c5b6140934c0422",
     "productName" : "iPhone 15 Pro Max 1TB",
     "productPrice" : 1599.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 17,
+    "productId" : "694749015c5b6140934c0422",
     "productName" : "iPhone 15 Pro Max 1TB",
     "productPrice" : 1599.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 18,
+    "productId" : "694749015c5b6140934c0423",
     "productName" : "Sony A7R V Camera",
     "productPrice" : 3899.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 18,
+    "productId" : "694749015c5b6140934c0423",
     "productName" : "Sony A7R V Camera",
     "productPrice" : 3899.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 19,
+    "productId" : "694749015c5b6140934c0424",
     "productName" : "LG OLED TV 77\"",
     "productPrice" : 2999.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 19,
+    "productId" : "694749015c5b6140934c0424",
     "productName" : "LG OLED TV 77\"",
     "productPrice" : 2999.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 20,
+    "productId" : "694749015c5b6140934c0425",
     "productName" : "Gaming Laptop RTX 4090",
     "productPrice" : 3499.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 20,
+    "productId" : "694749015c5b6140934c0425",
     "productName" : "Gaming Laptop RTX 4090",
     "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0427",
+    "productName" : "Alice's USB Drive",
+    "productPrice" : 19.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0428",
+    "productName" : "Alice's Phone Stand",
+    "productPrice" : 24.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042a",
+    "productName" : "Bob's Product 1",
+    "productPrice" : 65.11008073930238,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042b",
+    "productName" : "Henry's Updated Stock 5",
+    "productPrice" : 294.3411291109831,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042b",
+    "productName" : "Henry's Updated Stock 5",
+    "productPrice" : 294.3411291109831,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042c",
+    "productName" : "Bob's Product 3",
+    "productPrice" : 168.45601896576795,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042c",
+    "productName" : "Bob's Product 3",
+    "productPrice" : 168.45601896576795,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042d",
+    "productName" : "Bob's Product 4",
+    "productPrice" : 112.83380698864647,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042d",
+    "productName" : "Bob's Product 4",
+    "productPrice" : 112.83380698864647,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042e",
+    "productName" : "Bob's Product 5",
+    "productPrice" : 127.84463661429315,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042e",
+    "productName" : "Bob's Product 5",
+    "productPrice" : 127.84463661429315,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042f",
+    "productName" : "Henry's Updated Stock 3",
+    "productPrice" : 349.16081147899285,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c042f",
+    "productName" : "Henry's Updated Stock 3",
+    "productPrice" : 349.16081147899285,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0430",
+    "productName" : "Bob's Product 7",
+    "productPrice" : 133.98252671299468,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0430",
+    "productName" : "Bob's Product 7",
+    "productPrice" : 133.98252671299468,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0431",
+    "productName" : "Bob's Product 8",
+    "productPrice" : 64.48060943373774,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0432",
+    "productName" : "Bob's Product 9",
+    "productPrice" : 143.4695820164141,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0432",
+    "productName" : "Bob's Product 9",
+    "productPrice" : 143.4695820164141,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0433",
+    "productName" : "Bob's Product 10",
+    "productPrice" : 237.08929097911204,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0433",
+    "productName" : "Bob's Product 10",
+    "productPrice" : 237.08929097911204,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0436",
+    "productName" : "Diana's Updated Product 1",
+    "productPrice" : 90.59929925789827,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0437",
+    "productName" : "Diana's Updated Product 2",
+    "productPrice" : 199.67993619342695,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0437",
+    "productName" : "Diana's Updated Product 2",
+    "productPrice" : 199.67993619342695,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0438",
+    "productName" : "Diana's Updated Product 3",
+    "productPrice" : 179.21629806033286,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0438",
+    "productName" : "Diana's Updated Product 3",
+    "productPrice" : 179.21629806033286,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0439",
+    "productName" : "Diana's Updated Product 4",
+    "productPrice" : 52.37586362895781,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c043a",
+    "productName" : "Diana's Updated Product 5",
+    "productPrice" : 77.61669291688476,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c043b",
+    "productName" : "Diana's Updated Product 6",
+    "productPrice" : 170.7608772685454,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c043b",
+    "productName" : "Diana's Updated Product 6",
+    "productPrice" : 170.7608772685454,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c043c",
+    "productName" : "Diana's Updated Product 7",
+    "productPrice" : 212.65774893306488,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c043c",
+    "productName" : "Diana's Updated Product 7",
+    "productPrice" : 212.65774893306488,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c043d",
+    "productName" : "Diana's Updated Product 8",
+    "productPrice" : 208.53177983141035,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c043d",
+    "productName" : "Diana's Updated Product 8",
+    "productPrice" : 208.53177983141035,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0440",
+    "productName" : "Frank's Custom Gaming PC",
+    "productPrice" : 3999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0440",
+    "productName" : "Frank's Custom Gaming PC",
+    "productPrice" : 3999.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0442",
+    "productName" : "Grace's Notebook",
+    "productPrice" : 5.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0443",
+    "productName" : "Grace's Pen Set",
+    "productPrice" : 12.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0445",
+    "productName" : "Henry's Stock Item 1",
+    "productPrice" : 338.6773981649889,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0445",
+    "productName" : "Henry's Stock Item 1",
+    "productPrice" : 338.6773981649889,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0446",
+    "productName" : "Henry's Stock Item 2",
+    "productPrice" : 198.14760313338692,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0446",
+    "productName" : "Henry's Stock Item 2",
+    "productPrice" : 198.14760313338692,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0447",
+    "productName" : "Henry's Stock Item 3",
+    "productPrice" : 318.47330326178445,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0447",
+    "productName" : "Henry's Stock Item 3",
+    "productPrice" : 318.47330326178445,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0448",
+    "productName" : "Henry's Stock Item 4",
+    "productPrice" : 41.17473378873537,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0449",
+    "productName" : "Henry's Stock Item 5",
+    "productPrice" : 129.53008374338276,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0449",
+    "productName" : "Henry's Stock Item 5",
+    "productPrice" : 129.53008374338276,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044a",
+    "productName" : "Henry's Stock Item 6",
+    "productPrice" : 285.6143187359497,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044a",
+    "productName" : "Henry's Stock Item 6",
+    "productPrice" : 285.6143187359497,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044b",
+    "productName" : "Henry's Updated Stock 2",
+    "productPrice" : 233.42610535637192,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044b",
+    "productName" : "Henry's Updated Stock 2",
+    "productPrice" : 233.42610535637192,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044c",
+    "productName" : "Henry's Stock Item 8",
+    "productPrice" : 27.11032518688632,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044d",
+    "productName" : "Henry's Stock Item 9",
+    "productPrice" : 509.81651208539074,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044d",
+    "productName" : "Henry's Stock Item 9",
+    "productPrice" : 509.81651208539074,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044e",
+    "productName" : "Henry's Stock Item 10",
+    "productPrice" : 89.28096626767028,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044f",
+    "productName" : "Henry's Stock Item 11",
+    "productPrice" : 208.28171099858622,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c044f",
+    "productName" : "Henry's Stock Item 11",
+    "productPrice" : 208.28171099858622,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0450",
+    "productName" : "Henry's Stock Item 12",
+    "productPrice" : 134.31572896095656,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0450",
+    "productName" : "Henry's Stock Item 12",
+    "productPrice" : 134.31572896095656,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0452",
+    "productName" : "Ivy's Mid-Range Laptop",
+    "productPrice" : 799.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025c5b6140934c0452",
+    "productName" : "Ivy's Mid-Range Laptop",
+    "productPrice" : 799.99,
     "additionalInfo" : null
   } ],
-  "expensiveProductViews" : 20,
-  "totalProductViews" : 30,
-  "expensiveProductViewPercentage" : 66.66666666666667,
-  "averagePriceViewed" : 1181.6566666666665,
-  "highestPriceViewed" : 3899.99,
-  "lowestPriceViewed" : 9.99,
+  "expensiveProductViews" : 74,
+  "totalProductViews" : 93,
+  "expensiveProductViewPercentage" : 79.56989247311827,
+  "averagePriceViewed" : 606.9667878920709,
+  "highestPriceViewed" : 3999.99,
+  "lowestPriceViewed" : 5.99,
   "expensiveProducts" : [ {
-    "productId" : 11,
-    "productName" : "Gaming Monitor",
-    "price" : 299.99,
+    "productId" : "694749015c5b6140934c0413",
+    "productName" : "Henry's Updated Stock 4",
+    "price" : 335.65795003221496,
     "viewCount" : 2
   }, {
-    "productId" : 12,
+    "productId" : "694749015c5b6140934c0415",
+    "productName" : "Bob's Updated Product 5",
+    "price" : 153.62505491546113,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749015c5b6140934c0418",
+    "productName" : "Bob's Updated Product 4",
+    "price" : 227.4380298402378,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749015c5b6140934c041c",
+    "productName" : "Bob's Updated Product 2",
+    "price" : 170.8582674719327,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749015c5b6140934c041d",
     "productName" : "Mechanical Keyboard RGB",
     "price" : 149.99,
     "viewCount" : 2
   }, {
-    "productId" : 13,
+    "productId" : "694749015c5b6140934c041e",
     "productName" : "Noise Cancelling Headphones",
     "price" : 349.99,
     "viewCount" : 2
   }, {
-    "productId" : 14,
+    "productId" : "694749015c5b6140934c041f",
     "productName" : "iPad Pro",
     "price" : 899.99,
     "viewCount" : 2
   }, {
-    "productId" : 15,
+    "productId" : "694749015c5b6140934c0420",
     "productName" : "MacBook Air M3",
     "price" : 1299.99,
     "viewCount" : 2
   }, {
-    "productId" : 16,
+    "productId" : "694749015c5b6140934c0421",
     "productName" : "MacBook Pro M3 Max",
     "price" : 2499.99,
     "viewCount" : 2
   }, {
-    "productId" : 17,
+    "productId" : "694749015c5b6140934c0422",
     "productName" : "iPhone 15 Pro Max 1TB",
     "price" : 1599.99,
     "viewCount" : 2
   }, {
-    "productId" : 18,
+    "productId" : "694749015c5b6140934c0423",
     "productName" : "Sony A7R V Camera",
     "price" : 3899.99,
     "viewCount" : 2
   }, {
-    "productId" : 19,
+    "productId" : "694749015c5b6140934c0424",
     "productName" : "LG OLED TV 77\"",
     "price" : 2999.99,
     "viewCount" : 2
   }, {
-    "productId" : 20,
+    "productId" : "694749015c5b6140934c0425",
     "productName" : "Gaming Laptop RTX 4090",
     "price" : 3499.99,
     "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c042b",
+    "productName" : "Henry's Updated Stock 5",
+    "price" : 294.3411291109831,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c042c",
+    "productName" : "Bob's Product 3",
+    "price" : 168.45601896576795,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c042d",
+    "productName" : "Bob's Product 4",
+    "price" : 112.83380698864647,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c042e",
+    "productName" : "Bob's Product 5",
+    "price" : 127.84463661429315,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c042f",
+    "productName" : "Henry's Updated Stock 3",
+    "price" : 349.16081147899285,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0430",
+    "productName" : "Bob's Product 7",
+    "price" : 133.98252671299468,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0432",
+    "productName" : "Bob's Product 9",
+    "price" : 143.4695820164141,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0433",
+    "productName" : "Bob's Product 10",
+    "price" : 237.08929097911204,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0437",
+    "productName" : "Diana's Updated Product 2",
+    "price" : 199.67993619342695,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0438",
+    "productName" : "Diana's Updated Product 3",
+    "price" : 179.21629806033286,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c043b",
+    "productName" : "Diana's Updated Product 6",
+    "price" : 170.7608772685454,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c043c",
+    "productName" : "Diana's Updated Product 7",
+    "price" : 212.65774893306488,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c043d",
+    "productName" : "Diana's Updated Product 8",
+    "price" : 208.53177983141035,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0440",
+    "productName" : "Frank's Custom Gaming PC",
+    "price" : 3999.99,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0445",
+    "productName" : "Henry's Stock Item 1",
+    "price" : 338.6773981649889,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0446",
+    "productName" : "Henry's Stock Item 2",
+    "price" : 198.14760313338692,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0447",
+    "productName" : "Henry's Stock Item 3",
+    "price" : 318.47330326178445,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0449",
+    "productName" : "Henry's Stock Item 5",
+    "price" : 129.53008374338276,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c044a",
+    "productName" : "Henry's Stock Item 6",
+    "price" : 285.6143187359497,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c044b",
+    "productName" : "Henry's Updated Stock 2",
+    "price" : 233.42610535637192,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c044d",
+    "productName" : "Henry's Stock Item 9",
+    "price" : 509.81651208539074,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c044f",
+    "productName" : "Henry's Stock Item 11",
+    "price" : 208.28171099858622,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0450",
+    "productName" : "Henry's Stock Item 12",
+    "price" : 134.31572896095656,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749025c5b6140934c0452",
+    "productName" : "Ivy's Mid-Range Laptop",
+    "price" : 799.99,
+    "viewCount" : 2
   } ],
-  "profileDescription" : "User interested in expensive products (66,7% of views > €100,00)",
+  "profileDescription" : "User interested in expensive products (79,6% of views > €100,00)",
   "profileType" : "EXPENSIVE_SEEKER"
 }

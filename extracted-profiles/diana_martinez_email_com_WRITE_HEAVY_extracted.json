@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "diana.martinez@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-19 19:10:38",
-  "lastActivityAt" : "2025-12-19 19:10:40",
-  "totalOperations" : 26,
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:26",
+  "totalOperations" : 18,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
@@ -19,27 +19,17 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Successfully registered user: diana.martinez@email.com with ID: 4"
+    "additionalInfo" : "Successfully registered user: diana.martinez@email.com with ID: 694749025c5b6140934c0435"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:38",
-    "userName" : null,
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : null,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "✅ Created user: Diana Martinez (diana.martinez@email.com)"
-  }, {
-    "operationName" : null,
-    "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "context set",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
@@ -49,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
@@ -59,7 +49,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
@@ -69,247 +59,167 @@
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : "Diana's Managed Product 1",
-    "productPrice" : 187.58603437429963,
-    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 1 | Price: €187.58603437429963 | Action: WRITE"
+    "productPrice" : 148.40102032290147,
+    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 1 | Price: €148.40102032290147 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : "Diana's Managed Product 2",
-    "productPrice" : 30.81316713989475,
-    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 2 | Price: €30.81316713989475 | Action: WRITE"
+    "productPrice" : 116.37922691561387,
+    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 2 | Price: €116.37922691561387 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : "Diana's Managed Product 3",
-    "productPrice" : 174.63200875358433,
-    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 3 | Price: €174.63200875358433 | Action: WRITE"
+    "productPrice" : 127.62213927080793,
+    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 3 | Price: €127.62213927080793 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : "Diana's Managed Product 4",
-    "productPrice" : 286.231190550631,
-    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 4 | Price: €286.231190550631 | Action: WRITE"
+    "productPrice" : 136.38853098207943,
+    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 4 | Price: €136.38853098207943 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : "Diana's Managed Product 5",
-    "productPrice" : 301.8170527606657,
-    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 5 | Price: €301.8170527606657 | Action: WRITE"
+    "productPrice" : 134.49908267567434,
+    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 5 | Price: €134.49908267567434 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : "Diana's Managed Product 6",
-    "productPrice" : 102.8144813288568,
-    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 6 | Price: €102.8144813288568 | Action: WRITE"
+    "productPrice" : 219.25358376491857,
+    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 6 | Price: €219.25358376491857 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : "Diana's Managed Product 7",
-    "productPrice" : 215.85187324100423,
-    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 7 | Price: €215.85187324100423 | Action: WRITE"
+    "productPrice" : 278.37355833092306,
+    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 7 | Price: €278.37355833092306 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
     "productName" : "Diana's Managed Product 8",
-    "productPrice" : 263.4027978385255,
-    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 8 | Price: €263.4027978385255 | Action: WRITE"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:39",
-    "userName" : "Diana Martinez",
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : 300,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 300 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:39",
-    "userName" : "Diana Martinez",
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : 301,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 301 | Action: READ"
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:39",
-    "userName" : "Diana Martinez",
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : 302,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 302 | Action: READ"
+    "productPrice" : 225.78837861894945,
+    "additionalInfo" : "Operation: addProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductName: Diana's Managed Product 8 | Price: €225.78837861894945 | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
-    "productId" : 300,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 300 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 694749025c5b6140934c0436 | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
-    "productId" : 301,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 301 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 694749025c5b6140934c0437 | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
-    "productId" : 302,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 302 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 694749025c5b6140934c0438 | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
-    "productId" : 303,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 303 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 694749025c5b6140934c0439 | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
-    "productId" : 304,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 304 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 694749025c5b6140934c043a | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
-    "productId" : 305,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 305 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 694749025c5b6140934c043b | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:39",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
-    "productId" : 306,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 306 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 694749025c5b6140934c043c | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:40",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Diana Martinez",
     "userEmail" : "diana.martinez@email.com",
-    "productId" : 307,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 307 | Action: WRITE"
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:40",
-    "userName" : "Diana Martinez",
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : 303,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: deleteProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 303 | Action: WRITE"
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:40",
-    "userName" : "Diana Martinez",
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : 304,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: deleteProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 304 | Action: WRITE"
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:40",
-    "userName" : "Diana Martinez",
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : 305,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: deleteProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 305 | Action: WRITE"
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:40",
-    "userName" : "Diana Martinez",
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : 306,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: deleteProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 306 | Action: WRITE"
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:40",
-    "userName" : "Diana Martinez",
-    "userEmail" : "diana.martinez@email.com",
-    "productId" : 307,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: deleteProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 307 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Diana Martinez | Email: diana.martinez@email.com | ProductID: 694749025c5b6140934c043d | Action: WRITE"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:40",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "diana.martinez@email.com",
     "productId" : null,
@@ -317,27 +227,19 @@
     "productPrice" : null,
     "additionalInfo" : "Clearing user context for: diana.martinez@email.com"
   } ],
-  "totalReadOperations" : 5,
-  "totalWriteOperations" : 34,
-  "writePercentage" : 261.53846153846155,
+  "totalReadOperations" : 2,
+  "totalWriteOperations" : 24,
+  "writePercentage" : 300.0,
   "addProductCount" : 8,
   "updateProductCount" : 16,
-  "deleteProductCount" : 10,
+  "deleteProductCount" : 0,
   "productsModified" : {
-    "304" : 2,
-    "305" : 2,
-    "306" : 2,
-    "307" : 2,
-    "300" : 1,
-    "301" : 1,
-    "302" : 1,
-    "303" : 2
+    "694749025" : 8
   },
   "operationTypeCount" : {
-    "updateProduct" : 8,
-    "deleteProduct" : 5
+    "updateProduct" : 8
   },
-  "profileDescription" : "User who performs mostly WRITE operations (261,5% writes)",
   "profileType" : "WRITE_HEAVY",
+  "profileDescription" : "User who performs mostly WRITE operations (300,0% writes)",
   "mostFrequentWriteOperation" : "updateProduct"
 }

@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "frank.zhang@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-19 19:10:42",
-  "lastActivityAt" : "2025-12-19 19:10:43",
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:26",
   "totalOperations" : 20,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "frank.zhang@email.com",
     "productId" : null,
@@ -19,27 +19,17 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "frank.zhang@email.com",
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Successfully registered user: frank.zhang@email.com with ID: 6"
+    "additionalInfo" : "Successfully registered user: frank.zhang@email.com with ID: 694749025c5b6140934c043f"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:42",
-    "userName" : null,
-    "userEmail" : "frank.zhang@email.com",
-    "productId" : null,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "✅ Created user: Frank Zhang (frank.zhang@email.com)"
-  }, {
-    "operationName" : null,
-    "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "context set",
     "userEmail" : "frank.zhang@email.com",
     "productId" : null,
@@ -49,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : null,
@@ -59,187 +49,187 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 15,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0420 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 18,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 19,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 19 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 20,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0425 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:42",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 15,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0420 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 18,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 19,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 19 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 20,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0425 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 15,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0420 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 18,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 19,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 19 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
-    "productId" : 20,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Frank Zhang | Email: frank.zhang@email.com | ProductID: 694749015c5b6140934c0425 | Action: READ"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Frank Zhang",
     "userEmail" : "frank.zhang@email.com",
     "productId" : null,
@@ -249,7 +239,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "frank.zhang@email.com",
     "productId" : null,
@@ -264,6 +254,6 @@
   "getProductByIdCount" : 18,
   "productViewCount" : { },
   "productNames" : { },
-  "profileDescription" : "User who performs mostly READ operations (95,0% reads)",
-  "profileType" : "READ_HEAVY"
+  "profileType" : "READ_HEAVY",
+  "profileDescription" : "User who performs mostly READ operations (95,0% reads)"
 }

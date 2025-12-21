@@ -26,7 +26,7 @@ public class WriteHeavyProfile extends UserProfile {
     private int deleteProductCount;
 
     // Tracking products modified
-    private Map<Long, Integer> productsModified = new HashMap<>();
+    private Map<String, Integer> productsModified = new HashMap<>();
     private Map<String, Integer> operationTypeCount = new HashMap<>();
 
     @Override
@@ -39,7 +39,7 @@ public class WriteHeavyProfile extends UserProfile {
         return String.format("User who performs mostly WRITE operations (%.1f%% writes)", writePercentage);
     }
 
-    public void incrementWriteOperation(String operationName, Long productId) {
+    public void incrementWriteOperation(String operationName, String productId) {
         totalWriteOperations++;
         totalOperations++;
 

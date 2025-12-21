@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "jack.miller@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-19 19:10:48",
-  "lastActivityAt" : "2025-12-19 19:10:50",
-  "totalOperations" : 30,
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:27",
+  "totalOperations" : 66,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -19,27 +19,17 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Successfully registered user: jack.miller@email.com with ID: 10"
+    "additionalInfo" : "Successfully registered user: jack.miller@email.com with ID: 694749025c5b6140934c0453"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:48",
-    "userName" : null,
-    "userEmail" : "jack.miller@email.com",
-    "productId" : null,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "✅ Created user: Jack Miller (jack.miller@email.com)"
-  }, {
-    "operationName" : null,
-    "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "context set",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -49,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -59,7 +49,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -69,7 +59,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -79,7 +69,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -89,7 +79,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -99,7 +89,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -109,7 +99,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:48",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -119,7 +109,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -129,7 +119,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -139,7 +129,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -149,207 +139,567 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 1,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 1 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0412 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 2,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 2 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0413 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 3,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 3 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0414 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 4,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 4 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0415 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 5,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 5 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0416 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 6,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 6 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0417 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 7,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 7 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0418 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 8,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 8 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0419 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 9,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 9 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c041a | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:49",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 10,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 10 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c041b | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 11,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 11 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c041c | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 12,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 12 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c041d | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 13,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 13 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c041e | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 14,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 14 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c041f | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 15,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0420 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 18,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 19,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 19 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Jack Miller",
     "userEmail" : "jack.miller@email.com",
-    "productId" : 20,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749015c5b6140934c0425 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0427 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0428 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c042a | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c042b | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c042c | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c042d | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c042e | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c042f | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0430 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0431 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0432 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0433 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0436 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0437 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0438 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0439 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c043a | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c043b | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c043c | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c043d | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0440 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0442 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:26",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0443 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0445 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0446 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0447 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0448 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0449 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c044a | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c044b | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c044c | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c044d | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c044e | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c044f | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0450 | Action: READ"
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:27",
+    "userName" : "Jack Miller",
+    "userEmail" : "jack.miller@email.com",
+    "productId" : "694749025",
+    "productName" : null,
+    "productPrice" : null,
+    "additionalInfo" : "Operation: getProductById | User: Jack Miller | Email: jack.miller@email.com | ProductID: 694749025c5b6140934c0452 | Action: READ"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:50",
+    "timestamp" : "2025-12-21 02:10:27",
     "userName" : null,
     "userEmail" : "jack.miller@email.com",
     "productId" : null,
@@ -357,13 +707,13 @@
     "productPrice" : null,
     "additionalInfo" : "Clearing user context for: jack.miller@email.com"
   } ],
-  "totalReadOperations" : 30,
+  "totalReadOperations" : 66,
   "totalWriteOperations" : 0,
   "readPercentage" : 100.0,
   "getAllProductsCount" : 10,
-  "getProductByIdCount" : 20,
+  "getProductByIdCount" : 56,
   "productViewCount" : { },
   "productNames" : { },
-  "profileDescription" : "User who performs mostly READ operations (100,0% reads)",
-  "profileType" : "READ_HEAVY"
+  "profileType" : "READ_HEAVY",
+  "profileDescription" : "User who performs mostly READ operations (100,0% reads)"
 }

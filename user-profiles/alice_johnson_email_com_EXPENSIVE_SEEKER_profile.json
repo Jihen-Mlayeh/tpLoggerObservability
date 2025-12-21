@@ -3,13 +3,13 @@
   "userName" : "Alice Johnson",
   "userEmail" : "alice.johnson@email.com",
   "userAge" : 28,
-  "profileCreatedAt" : "2025-12-19 19:10:33",
-  "lastActivityAt" : "2025-12-19 19:10:35",
-  "totalOperations" : 26,
+  "profileCreatedAt" : "2025-12-21 02:10:25",
+  "lastActivityAt" : "2025-12-21 02:10:26",
+  "totalOperations" : 27,
   "operationHistory" : [ {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:33",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -19,7 +19,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:33",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -29,7 +29,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:33",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -39,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:33",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
     "productId" : null,
@@ -49,296 +49,311 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:33",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "productPrice" : 149.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:33",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "productPrice" : 149.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 5,
-    "productName" : "Keyboard Cover",
-    "productPrice" : 29.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 18,
+    "productId" : "694749015c5b6140934c0423",
     "productName" : "Sony A7R V Camera",
     "productPrice" : 3899.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 18,
+    "productId" : "694749015c5b6140934c0423",
     "productName" : "Sony A7R V Camera",
     "productPrice" : 3899.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
+    "productId" : "694749015c5b6140934c0423",
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "productPrice" : 3499.99,
+    "productId" : "694749015c5b6140934c0423",
+    "productName" : "Sony A7R V Camera",
+    "productPrice" : 3899.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 3,
+    "productId" : "694749015c5b6140934c041f",
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c041f",
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c041f",
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c041f",
+    "productName" : "iPad Pro",
+    "productPrice" : 899.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0422",
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0422",
+    "productName" : "iPhone 15 Pro Max 1TB",
+    "productPrice" : 1599.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0414",
     "productName" : "HDMI Cable",
     "productPrice" : 19.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 4,
+    "productId" : "694749015c5b6140934c0425",
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0425",
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c041e",
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c041e",
+    "productName" : "Noise Cancelling Headphones",
+    "productPrice" : 349.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0414",
+    "productName" : "HDMI Cable",
+    "productPrice" : 19.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0425",
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "viewExpensiveProduct",
+    "operationType" : "SEARCH_EXPENSIVE",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0425",
+    "productName" : "Gaming Laptop RTX 4090",
+    "productPrice" : 3499.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0419",
+    "productName" : "Webcam HD",
+    "productPrice" : 89.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c041a",
+    "productName" : "Desk Lamp",
+    "productPrice" : 69.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0417",
+    "productName" : "Wireless Mouse",
+    "productPrice" : 49.99,
+    "additionalInfo" : null
+  }, {
+    "operationName" : "getProductById",
+    "operationType" : "READ",
+    "timestamp" : "2025-12-21 02:10:25",
+    "userName" : "Alice Johnson",
+    "userEmail" : "alice.johnson@email.com",
+    "productId" : "694749015c5b6140934c0415",
     "productName" : "Phone Case",
     "productPrice" : 24.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:25",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 7,
-    "productName" : "Mechanical Keyboard",
-    "productPrice" : 79.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 5,
-    "productName" : "Keyboard Cover",
-    "productPrice" : 29.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 17,
-    "productName" : "iPhone 15 Pro Max 1TB",
-    "productPrice" : 1599.99,
+    "productId" : "694749015c5b6140934c0424",
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
     "additionalInfo" : null
   }, {
     "operationName" : "viewExpensiveProduct",
     "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 17,
-    "productName" : "iPhone 15 Pro Max 1TB",
-    "productPrice" : 1599.99,
+    "productId" : "694749015c5b6140934c0424",
+    "productName" : "LG OLED TV 77\"",
+    "productPrice" : 2999.99,
     "additionalInfo" : null
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 10,
-    "productName" : "USB Hub",
-    "productPrice" : 59.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "productPrice" : 149.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "productPrice" : 149.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 1,
-    "productName" : "USB Cable",
-    "productPrice" : 9.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 16,
-    "productName" : "MacBook Pro M3 Max",
-    "productPrice" : 2499.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 16,
-    "productName" : "MacBook Pro M3 Max",
-    "productPrice" : 2499.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "productPrice" : 149.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "viewExpensiveProduct",
-    "operationType" : "SEARCH_EXPENSIVE",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "productPrice" : 149.99,
-    "additionalInfo" : null
-  }, {
-    "operationName" : "getProductById",
-    "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:34",
-    "userName" : "Alice Johnson",
-    "userEmail" : "alice.johnson@email.com",
-    "productId" : 3,
-    "productName" : "HDMI Cable",
-    "productPrice" : 19.99,
+    "productId" : "694749015c5b6140934c0413",
+    "productName" : "Mouse Pad",
+    "productPrice" : 14.99,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:34",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 101,
+    "productId" : "694749025c5b6140934c0427",
     "productName" : "Alice's USB Drive",
     "productPrice" : 19.99,
     "additionalInfo" : null
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Alice Johnson",
     "userEmail" : "alice.johnson@email.com",
-    "productId" : 102,
+    "productId" : "694749025c5b6140934c0428",
     "productName" : "Alice's Phone Stand",
     "productPrice" : 24.99,
     "additionalInfo" : null
   } ],
-  "expensiveProductViews" : 16,
-  "totalProductViews" : 26,
-  "expensiveProductViewPercentage" : 61.53846153846154,
-  "averagePriceViewed" : 1200.7592307692307,
+  "expensiveProductViews" : 18,
+  "totalProductViews" : 27,
+  "expensiveProductViewPercentage" : 66.66666666666667,
+  "averagePriceViewed" : 1608.6937037037035,
   "highestPriceViewed" : 3899.99,
-  "lowestPriceViewed" : 9.99,
+  "lowestPriceViewed" : 14.99,
   "expensiveProducts" : [ {
-    "productId" : 12,
-    "productName" : "Mechanical Keyboard RGB",
-    "price" : 149.99,
-    "viewCount" : 6
-  }, {
-    "productId" : 20,
-    "productName" : "Gaming Laptop RTX 4090",
-    "price" : 3499.99,
-    "viewCount" : 4
-  }, {
-    "productId" : 18,
+    "productId" : "694749015c5b6140934c0423",
     "productName" : "Sony A7R V Camera",
     "price" : 3899.99,
-    "viewCount" : 2
+    "viewCount" : 4
   }, {
-    "productId" : 17,
+    "productId" : "694749015c5b6140934c041f",
+    "productName" : "iPad Pro",
+    "price" : 899.99,
+    "viewCount" : 4
+  }, {
+    "productId" : "694749015c5b6140934c0422",
     "productName" : "iPhone 15 Pro Max 1TB",
     "price" : 1599.99,
     "viewCount" : 2
   }, {
-    "productId" : 16,
-    "productName" : "MacBook Pro M3 Max",
-    "price" : 2499.99,
+    "productId" : "694749015c5b6140934c0425",
+    "productName" : "Gaming Laptop RTX 4090",
+    "price" : 3499.99,
+    "viewCount" : 4
+  }, {
+    "productId" : "694749015c5b6140934c041e",
+    "productName" : "Noise Cancelling Headphones",
+    "price" : 349.99,
+    "viewCount" : 2
+  }, {
+    "productId" : "694749015c5b6140934c0424",
+    "productName" : "LG OLED TV 77\"",
+    "price" : 2999.99,
     "viewCount" : 2
   } ],
-  "profileDescription" : "User interested in expensive products (61,5% of views > €100,00)",
+  "profileDescription" : "User interested in expensive products (66,7% of views > €100,00)",
   "profileType" : "EXPENSIVE_SEEKER"
 }

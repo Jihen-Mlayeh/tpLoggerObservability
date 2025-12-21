@@ -45,7 +45,7 @@ public class UserProfileService {
      * Log an operation for a user
      */
     public void logOperation(User user, String operationName, UserOperationType operationType,
-                             Long productId, String productName, Double productPrice) {
+                             String productId, String productName, Double productPrice) {
 
         String userKey = getUserKey(user);
 
@@ -102,7 +102,7 @@ public class UserProfileService {
      * Update profile statistics based on operation
      */
     private void updateProfileStatistics(UserProfile profile, String operationName,
-                                         UserOperationType operationType, Long productId,
+                                         UserOperationType operationType, String productId,
                                          String productName, Double productPrice) {
 
         if (profile instanceof ReadHeavyProfile readProfile) {

@@ -44,7 +44,7 @@ public class ProductController {
      * GET /api/products/{id} - Get product by ID
      */
     @GetMapping("/{id}")
-    public ResponseEntity<?> getProductById(@PathVariable Long id) {
+    public ResponseEntity<?> getProductById(@PathVariable String id) {
         logger.info("REST API: GET /api/products/{} - Fetching product by ID", id);
 
         try {
@@ -88,7 +88,7 @@ public class ProductController {
      * PUT /api/products/{id} - Update an existing product
      */
     @PutMapping("/{id}")
-    public ResponseEntity<?> updateProduct(@PathVariable Long id,
+    public ResponseEntity<?> updateProduct(@PathVariable String id,
                                            @Valid @RequestBody Product product) {
         logger.info("REST API: PUT /api/products/{} - Updating product", id);
 
@@ -111,7 +111,7 @@ public class ProductController {
      * DELETE /api/products/{id} - Delete a product
      */
     @DeleteMapping("/{id}")
-    public ResponseEntity<?> deleteProduct(@PathVariable Long id) {
+    public ResponseEntity<?> deleteProduct(@PathVariable String id) {
         logger.info("REST API: DELETE /api/products/{} - Deleting product", id);
 
         try {

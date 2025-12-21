@@ -9,7 +9,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 @Repository
-public interface ProductRepository extends MongoRepository<Product, Long> {
+public interface ProductRepository extends MongoRepository<Product, String> {
 
     // Find products by name (case-insensitive)
     List<Product> findByNameContainingIgnoreCase(String name);

@@ -204,13 +204,14 @@ public class LogParser {
             builder.userEmail(emailMatcher.group(1));
         }
 
-        // Extract ProductID
+        // Extract ProductID as String
         Pattern idPattern = Pattern.compile("ProductID:\\s*(\\d+)");
         Matcher idMatcher = idPattern.matcher(message);
         if (idMatcher.find()) {
-            builder.resourceId(Long.parseLong(idMatcher.group(1)));
+            builder.resourceId(idMatcher.group(1));  // <-- garder en String
             builder.resourceType("PRODUCT");
         }
+
 
         // Extract ProductName
         Pattern namePattern = Pattern.compile("ProductName:\\s*([^|]+?)\\s*(?:\\||$)");
@@ -240,9 +241,10 @@ public class LogParser {
             Pattern idPattern2 = Pattern.compile("ID:\\s*(\\d+)");
             Matcher idMatcher2 = idPattern2.matcher(message);
             if (idMatcher2.find()) {
-                builder.resourceId(Long.parseLong(idMatcher2.group(1)));
+                builder.resourceId(idMatcher2.group(1));  // garder en String
                 builder.resourceType("PRODUCT");
             }
+
 
             // Extract Name
             Pattern namePattern2 = Pattern.compile("Name:\\s*([^|]+?)\\s*(?:\\||$)");
@@ -305,8 +307,9 @@ public class LogParser {
         Pattern idPattern = Pattern.compile("(?:ID|id)[:\\s]+(\\d+)");
         Matcher idMatcher = idPattern.matcher(message);
         if (idMatcher.find()) {
-            builder.resourceId(Long.parseLong(idMatcher.group(1)));
+            builder.resourceId(idMatcher.group(1));  // utiliser directement le String
         }
+
 
         // Try to extract price
         Pattern pricePattern = Pattern.compile("(?:€|EUR|Price:)[:\\s]*([\\d.]+)");

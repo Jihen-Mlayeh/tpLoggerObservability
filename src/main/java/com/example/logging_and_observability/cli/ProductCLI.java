@@ -211,7 +211,7 @@ public class ProductCLI implements CommandLineRunner {
             for (Product p : products) {
                 String priceIndicator = p.getPrice() >= 100.0 ? " 💎" : "";
                 System.out.printf(
-                        "ID: %d | Name: %s | Price: €%.2f%s | Exp: %s%n",
+                        "ID: %s | Name: %s | Price: €%.2f%s | Exp: %s%n",
                         p.getId(), p.getName(), p.getPrice(), priceIndicator, p.getExpirationDate()
                 );
             }
@@ -222,8 +222,7 @@ public class ProductCLI implements CommandLineRunner {
         logger.info("CLI: User {} fetch product by ID", currentUser.getName());
 
         System.out.print("Enter product ID: ");
-        Long id = Long.parseLong(scanner.nextLine());
-
+        String id = scanner.nextLine();
         Product product = productService.getProductById(id);
 
         System.out.println("\n✅ Product Found");
@@ -243,9 +242,6 @@ public class ProductCLI implements CommandLineRunner {
         logger.info("CLI: User {} add new product", currentUser.getName());
 
         try {
-            System.out.print("Enter product ID: ");
-            Long id = Long.parseLong(scanner.nextLine());
-
             System.out.print("Enter product name: ");
             String name = scanner.nextLine();
 
@@ -253,12 +249,14 @@ public class ProductCLI implements CommandLineRunner {
             Double price = Double.parseDouble(scanner.nextLine());
 
             System.out.print("Enter expiration date (yyyy-MM-dd): ");
-            LocalDate date = LocalDate.parse(
-                    scanner.nextLine(),
-                    DateTimeFormatter.ISO_LOCAL_DATE
-            );
+            LocalDate date = LocalDate.parse(scanner.nextLine(), DateTimeFormatter.ISO_LOCAL_DATE);
 
-            Product product = new Product(id, name, price, date);
+            // Ne pas fournir d'ID, MongoDB va le générer automatiquement
+            Product product = new Product();
+            product.setName(name);
+            product.setPrice(price);
+            product.setExpirationDate(date);
+
             productService.addProduct(product);
 
             System.out.println("✅ Product added successfully!");
@@ -277,7 +275,7 @@ public class ProductCLI implements CommandLineRunner {
         logger.info("CLI: User {} delete product", currentUser.getName());
 
         System.out.print("Enter product ID to delete: ");
-        Long id = Long.parseLong(scanner.nextLine());
+        String id = scanner.nextLine();
 
         productService.deleteProduct(id);
         System.out.println("✅ Product deleted successfully!");
@@ -288,7 +286,7 @@ public class ProductCLI implements CommandLineRunner {
 
         try {
             System.out.print("Enter product ID: ");
-            Long id = Long.parseLong(scanner.nextLine());
+            String id = scanner.nextLine();
 
             System.out.print("Enter new product name: ");
             String name = scanner.nextLine();
@@ -333,7 +331,7 @@ public class ProductCLI implements CommandLineRunner {
 
             for (Product p : expensiveProducts) {
                 System.out.printf(
-                        "💎 ID: %d | %s | €%.2f | Exp: %s%n",
+                        "💎 ID: %s | %s | €%.2f | Exp: %s%n",
                         p.getId(), p.getName(), p.getPrice(), p.getExpirationDate()
                 );
 

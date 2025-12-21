@@ -5,8 +5,8 @@ import com.example.logging_and_observability.execption.ProductNotFoundException;
 import com.example.logging_and_observability.model.Product;
 import com.example.logging_and_observability.model.User;
 import com.example.logging_and_observability.repository.ProductRepository;
-import com.example.logging_and_observability.profiling.service.UserProfileService;
 import com.example.logging_and_observability.profiling.model.UserOperationType;
+import com.example.logging_and_observability.profiling.service.UserProfileService;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,48 +48,61 @@ public class ProductService {
     public List<Product> getAllProducts() {
         User currentUser = getCurrentUser();
 
-        logger.info("Operation: getAllProducts | User: {} | Email: {} | Action: READ",
+        logger.info(
+                "Operation: getAllProducts | User: {} | Email: {} | Action: READ",
                 currentUser != null ? currentUser.getName() : "Unknown",
-                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com"
+        );
 
         List<Product> products = productRepository.findAll();
 
-        logger.info("Retrieved {} products | User: {} | Operation: READ | Status: SUCCESS",
+        logger.info(
+                "Retrieved {} products | User: {} | Operation: READ | Status: SUCCESS",
                 products.size(),
-                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com"
+        );
 
         if (currentUser != null) {
             userProfileService.logOperation(
                     currentUser,
                     "getAllProducts",
                     UserOperationType.READ,
-                    null, null, null
+                    null,
+                    null,
+                    null
             );
         }
 
         return products;
     }
 
-    public Product getProductById(Long id) {
+    public Product getProductById(String id) {
         User currentUser = getCurrentUser();
 
-        logger.info("Operation: getProductById | User: {} | Email: {} | ProductID: {} | Action: READ",
+        logger.info(
+                "Operation: getProductById | User: {} | Email: {} | ProductID: {} | Action: READ",
                 currentUser != null ? currentUser.getName() : "Unknown",
                 currentUser != null ? currentUser.getEmail() : "unknown@email.com",
-                id);
+                id
+        );
 
         Product product = productRepository.findById(id)
                 .orElseThrow(() -> {
-                    logger.error("Product not found | ID: {} | User: {} | Status: ERROR",
-                            id, currentUser != null ? currentUser.getEmail() : "unknown");
+                    logger.error(
+                            "Product not found | ID: {} | User: {} | Status: ERROR",
+                            id,
+                            currentUser != null ? currentUser.getEmail() : "unknown"
+                    );
                     return new ProductNotFoundException(id);
                 });
 
-        logger.info("Product found | ID: {} | Name: {} | Price: €{} | User: {} | Operation: READ | Status: SUCCESS",
+        logger.info(
+                "Product found | ID: {} | Name: {} | Price: €{} | User: {} | Operation: READ | Status: SUCCESS",
                 product.getId(),
                 product.getName(),
                 product.getPrice(),
-                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com"
+        );
 
         if (currentUser != null) {
             userProfileService.logOperation(
@@ -101,13 +114,14 @@ public class ProductService {
                     product.getPrice()
             );
 
-            // Check if expensive product
             if (product.getPrice() >= 100.0) {
-                logger.info("Expensive product view | ID: {} | Name: {} | Price: €{} | User: {} | Operation: SEARCH_EXPENSIVE",
+                logger.info(
+                        "Expensive product view | ID: {} | Name: {} | Price: €{} | User: {} | Operation: SEARCH_EXPENSIVE",
                         product.getId(),
                         product.getName(),
                         product.getPrice(),
-                        currentUser.getEmail());
+                        currentUser.getEmail()
+                );
 
                 userProfileService.logOperation(
                         currentUser,
@@ -126,26 +140,32 @@ public class ProductService {
     public Product addProduct(Product product) {
         User currentUser = getCurrentUser();
 
-        logger.info("Operation: addProduct | User: {} | Email: {} | ProductName: {} | Price: €{} | Action: WRITE",
+        logger.info(
+                "Operation: addProduct | User: {} | Email: {} | ProductName: {} | Price: €{} | Action: WRITE",
                 currentUser != null ? currentUser.getName() : "Unknown",
                 currentUser != null ? currentUser.getEmail() : "unknown@email.com",
                 product.getName(),
-                product.getPrice());
+                product.getPrice()
+        );
 
-        if (productRepository.existsById(product.getId())) {
-            logger.error("Product already exists | ID: {} | User: {} | Status: ERROR",
+        if (product.getId() != null && productRepository.existsById(product.getId())) {
+            logger.error(
+                    "Product already exists | ID: {} | User: {} | Status: ERROR",
                     product.getId(),
-                    currentUser != null ? currentUser.getEmail() : "unknown");
+                    currentUser != null ? currentUser.getEmail() : "unknown"
+            );
             throw new ProductAlreadyExistsException(product.getId());
         }
 
         Product saved = productRepository.save(product);
 
-        logger.info("Product added | ID: {} | Name: {} | Price: €{} | User: {} | Operation: WRITE | Status: SUCCESS",
+        logger.info(
+                "Product added | ID: {} | Name: {} | Price: €{} | User: {} | Operation: WRITE | Status: SUCCESS",
                 saved.getId(),
                 saved.getName(),
                 saved.getPrice(),
-                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com"
+        );
 
         if (currentUser != null) {
             userProfileService.logOperation(
@@ -161,18 +181,23 @@ public class ProductService {
         return saved;
     }
 
-    public Product updateProduct(Long id, Product updatedProduct) {
+    public Product updateProduct(String id, Product updatedProduct) {
         User currentUser = getCurrentUser();
 
-        logger.info("Operation: updateProduct | User: {} | Email: {} | ProductID: {} | Action: WRITE",
+        logger.info(
+                "Operation: updateProduct | User: {} | Email: {} | ProductID: {} | Action: WRITE",
                 currentUser != null ? currentUser.getName() : "Unknown",
                 currentUser != null ? currentUser.getEmail() : "unknown@email.com",
-                id);
+                id
+        );
 
         Product existingProduct = productRepository.findById(id)
                 .orElseThrow(() -> {
-                    logger.error("Product not found for update | ID: {} | User: {} | Status: ERROR",
-                            id, currentUser != null ? currentUser.getEmail() : "unknown");
+                    logger.error(
+                            "Product not found for update | ID: {} | User: {} | Status: ERROR",
+                            id,
+                            currentUser != null ? currentUser.getEmail() : "unknown"
+                    );
                     return new ProductNotFoundException(id);
                 });
 
@@ -182,11 +207,13 @@ public class ProductService {
 
         Product saved = productRepository.save(existingProduct);
 
-        logger.info("Product updated | ID: {} | Name: {} | Price: €{} | User: {} | Operation: WRITE | Status: SUCCESS",
+        logger.info(
+                "Product updated | ID: {} | Name: {} | Price: €{} | User: {} | Operation: WRITE | Status: SUCCESS",
                 saved.getId(),
                 saved.getName(),
                 saved.getPrice(),
-                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com"
+        );
 
         if (currentUser != null) {
             userProfileService.logOperation(
@@ -202,27 +229,34 @@ public class ProductService {
         return saved;
     }
 
-    public void deleteProduct(Long id) {
+    public void deleteProduct(String id) {
         User currentUser = getCurrentUser();
 
-        logger.info("Operation: deleteProduct | User: {} | Email: {} | ProductID: {} | Action: WRITE",
+        logger.info(
+                "Operation: deleteProduct | User: {} | Email: {} | ProductID: {} | Action: WRITE",
                 currentUser != null ? currentUser.getName() : "Unknown",
                 currentUser != null ? currentUser.getEmail() : "unknown@email.com",
-                id);
+                id
+        );
 
         Product product = productRepository.findById(id)
                 .orElseThrow(() -> {
-                    logger.error("Product not found for deletion | ID: {} | User: {} | Status: ERROR",
-                            id, currentUser != null ? currentUser.getEmail() : "unknown");
+                    logger.error(
+                            "Product not found for deletion | ID: {} | User: {} | Status: ERROR",
+                            id,
+                            currentUser != null ? currentUser.getEmail() : "unknown"
+                    );
                     return new ProductNotFoundException(id);
                 });
 
         productRepository.deleteById(id);
 
-        logger.info("Product deleted | ID: {} | Name: {} | User: {} | Operation: WRITE | Status: SUCCESS",
+        logger.info(
+                "Product deleted | ID: {} | Name: {} | User: {} | Operation: WRITE | Status: SUCCESS",
                 id,
                 product.getName(),
-                currentUser != null ? currentUser.getEmail() : "unknown@email.com");
+                currentUser != null ? currentUser.getEmail() : "unknown@email.com"
+        );
 
         if (currentUser != null) {
             userProfileService.logOperation(

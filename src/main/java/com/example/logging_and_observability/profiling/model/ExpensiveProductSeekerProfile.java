@@ -33,12 +33,12 @@ public class ExpensiveProductSeekerProfile extends UserProfile {
     @Data
     @NoArgsConstructor
     public static class ExpensiveProductView {
-        private Long productId;
+        private String productId;
         private String productName;
         private Double price;
         private int viewCount;
 
-        public ExpensiveProductView(Long productId, String productName, Double price) {
+        public ExpensiveProductView(String productId, String productName, Double price) {
             this.productId = productId;
             this.productName = productName;
             this.price = price;
@@ -57,7 +57,7 @@ public class ExpensiveProductSeekerProfile extends UserProfile {
                 expensiveProductViewPercentage, EXPENSIVE_THRESHOLD);
     }
 
-    public void trackProductView(Long productId, String productName, Double price) {
+    public void trackProductView(String productId, String productName, Double price) {
         totalProductViews++;
         totalOperations++;
 

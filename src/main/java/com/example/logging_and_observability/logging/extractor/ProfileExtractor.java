@@ -170,7 +170,7 @@ public class ProfileExtractor {
                 .filter(log -> "getProductById".equals(log.getAction()))
                 .filter(log -> log.getResourceId() != null)
                 .forEach(log -> {
-                    Long productId = log.getResourceId();
+                    String productId = log.getResourceId();
                     String productName = log.getResourceName();
                     if (productName != null) {
                         profile.trackProductView(productId, productName);
@@ -237,7 +237,7 @@ public class ProfileExtractor {
         logs.stream()
                 .filter(log -> log.getResourcePrice() != null)
                 .forEach(log -> {
-                    Long productId = log.getResourceId();
+                    String productId = log.getResourceId();
                     String productName = log.getResourceName();
                     Double price = log.getResourcePrice();
 

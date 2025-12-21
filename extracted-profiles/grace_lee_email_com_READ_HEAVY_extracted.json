@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "grace.lee@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-19 19:10:43",
-  "lastActivityAt" : "2025-12-19 19:10:45",
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:26",
   "totalOperations" : 22,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -19,27 +19,17 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Successfully registered user: grace.lee@email.com with ID: 7"
+    "additionalInfo" : "Successfully registered user: grace.lee@email.com with ID: 694749025c5b6140934c0441"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:43",
-    "userName" : null,
-    "userEmail" : "grace.lee@email.com",
-    "productId" : null,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "✅ Created user: Grace Lee (grace.lee@email.com)"
-  }, {
-    "operationName" : null,
-    "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "context set",
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -49,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -59,7 +49,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:43",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -69,7 +59,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -79,7 +69,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -89,7 +79,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -99,157 +89,157 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 1,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 1 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0412 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 2,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 2 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0413 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 3,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 3 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0414 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 4,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 4 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0415 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 5,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 5 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0416 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 1,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 1 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0412 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 2,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 2 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0413 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 3,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 3 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0414 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 4,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 4 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0415 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 5,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 5 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0416 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:44",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 1,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 1 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0412 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:45",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 2,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 2 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0413 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:45",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 3,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 3 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0414 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:45",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 4,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 4 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0415 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:45",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
-    "productId" : 5,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 5 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Grace Lee | Email: grace.lee@email.com | ProductID: 694749015c5b6140934c0416 | Action: READ"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:45",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -259,7 +249,7 @@
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:45",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Grace Lee",
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -269,7 +259,7 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:45",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "grace.lee@email.com",
     "productId" : null,
@@ -284,6 +274,6 @@
   "getProductByIdCount" : 15,
   "productViewCount" : { },
   "productNames" : { },
-  "profileDescription" : "User who performs mostly READ operations (90,9% reads)",
-  "profileType" : "READ_HEAVY"
+  "profileType" : "READ_HEAVY",
+  "profileDescription" : "User who performs mostly READ operations (90,9% reads)"
 }

@@ -25,8 +25,8 @@ public class ReadHeavyProfile extends UserProfile {
     private int getProductByIdCount;
 
     // Most viewed products
-    private Map<Long, Integer> productViewCount = new HashMap<>();
-    private Map<Long, String> productNames = new HashMap<>();
+    private Map<String, Integer> productViewCount = new HashMap<>();
+    private Map<String, String> productNames = new HashMap<>();
 
     @Override
     public String getProfileType() {
@@ -57,7 +57,7 @@ public class ReadHeavyProfile extends UserProfile {
         updateReadPercentage();
     }
 
-    public void trackProductView(Long productId, String productName) {
+    public void trackProductView(String productId, String productName) {
         productViewCount.put(productId, productViewCount.getOrDefault(productId, 0) + 1);
         productNames.put(productId, productName);
     }
@@ -68,12 +68,13 @@ public class ReadHeavyProfile extends UserProfile {
         }
     }
 
-    public Map<Long, Integer> getTopViewedProducts(int limit) {
+    public Map<String, Integer> getTopViewedProducts(int limit) {
         return productViewCount.entrySet().stream()
-                .sorted(Map.Entry.<Long, Integer>comparingByValue().reversed())
+                .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
                 .limit(limit)
                 .collect(HashMap::new, (m, e) -> m.put(e.getKey(), e.getValue()), HashMap::putAll);
     }
+
 
     public double getReadPercentage() {
         if (totalOperations > 0) {

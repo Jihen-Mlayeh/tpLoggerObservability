@@ -10,11 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
-/**
- * Service for managing users in MongoDB
- */
 @Service
 @RequiredArgsConstructor
 public class UserService {
@@ -29,19 +25,19 @@ public class UserService {
     public User registerUser(User user) {
         logger.info("Attempting to register user: {}", user.getEmail());
 
-        // Check if user already exists
         if (userRepository.existsByEmail(user.getEmail())) {
             logger.warn("User with email '{}' already exists", user.getEmail());
             throw new UserAlreadyExistsException(user.getEmail());
         }
 
-        // Generate ID if not provided
-        if (user.getId() == null) {
-            user.setId(generateUserId());
-        }
-
+        // MongoDB generates ID automatically
         User savedUser = userRepository.save(user);
-        logger.info("Successfully registered user: {} with ID: {}", savedUser.getEmail(), savedUser.getId());
+
+        logger.info(
+                "Successfully registered user: {} with ID: {}",
+                savedUser.getEmail(),
+                savedUser.getId()
+        );
 
         return savedUser;
     }
@@ -52,14 +48,11 @@ public class UserService {
     public User authenticateUser(String email, String password) {
         logger.info("Attempting to authenticate user: {}", email);
 
-        User user = userRepository.findByEmailAndPassword(email, password)
+        return userRepository.findByEmailAndPassword(email, password)
                 .orElseThrow(() -> {
                     logger.warn("Authentication failed for user: {}", email);
                     return new UserNotFoundException("Invalid email or password");
                 });
-
-        logger.info("Successfully authenticated user: {}", email);
-        return user;
     }
 
     /**
@@ -78,7 +71,7 @@ public class UserService {
     /**
      * Get user by ID
      */
-    public User getUserById(Long id) {
+    public User getUserById(String id) {
         logger.info("Fetching user by ID: {}", id);
 
         return userRepository.findById(id)
@@ -101,7 +94,7 @@ public class UserService {
     /**
      * Update user
      */
-    public User updateUser(Long id, User updatedUser) {
+    public User updateUser(String id, User updatedUser) {
         logger.info("Updating user with ID: {}", id);
 
         User existingUser = getUserById(id);
@@ -110,7 +103,6 @@ public class UserService {
         existingUser.setAge(updatedUser.getAge());
         existingUser.setEmail(updatedUser.getEmail());
 
-        // Only update password if provided
         if (updatedUser.getPassword() != null && !updatedUser.getPassword().isEmpty()) {
             existingUser.setPassword(updatedUser.getPassword());
         }
@@ -124,7 +116,7 @@ public class UserService {
     /**
      * Delete user
      */
-    public void deleteUser(Long id) {
+    public void deleteUser(String id) {
         logger.info("Deleting user with ID: {}", id);
 
         User user = getUserById(id);
@@ -138,20 +130,5 @@ public class UserService {
      */
     public boolean userExists(String email) {
         return userRepository.existsByEmail(email);
-    }
-
-    /**
-     * Generate unique user ID
-     */
-    private Long generateUserId() {
-        // Simple ID generation - you can improve this
-        List<User> users = userRepository.findAll();
-        if (users.isEmpty()) {
-            return 1L;
-        }
-        return users.stream()
-                .map(User::getId)
-                .max(Long::compareTo)
-                .orElse(0L) + 1;
     }
 }

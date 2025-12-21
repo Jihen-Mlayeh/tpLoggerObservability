@@ -24,7 +24,7 @@ public class OperationLog {
     private String userName;                // User who performed the operation
     private String userEmail;
 
-    private Long productId;                 // Product ID if applicable
+    private String productId;                 // Product ID if applicable
     private String productName;             // Product name if applicable
     private Double productPrice;            // Product price if applicable
 

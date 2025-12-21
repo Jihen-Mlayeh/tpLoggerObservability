@@ -16,7 +16,7 @@ import java.time.LocalDate;
 public class Product {
 
     @Id
-    private Long id;
+    private String id;
 
     @NotBlank(message = "Product name is required")
     @Size(min = 2, max = 200, message = "Name must be between 2 and 200 characters")

@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "bob.smith@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-19 19:10:35",
-  "lastActivityAt" : "2025-12-19 19:10:36",
-  "totalOperations" : 24,
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:26",
+  "totalOperations" : 21,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
@@ -19,27 +19,17 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Successfully registered user: bob.smith@email.com with ID: 2"
+    "additionalInfo" : "Successfully registered user: bob.smith@email.com with ID: 694749025c5b6140934c0429"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:35",
-    "userName" : null,
-    "userEmail" : "bob.smith@email.com",
-    "productId" : null,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "✅ Created user: Bob Smith (bob.smith@email.com)"
-  }, {
-    "operationName" : null,
-    "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "context set",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
@@ -49,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
@@ -59,237 +49,207 @@
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 1",
-    "productPrice" : 234.12927104057215,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 1 | Price: €234.12927104057215 | Action: WRITE"
+    "productPrice" : 65.11008073930238,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 1 | Price: €65.11008073930238 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 2",
-    "productPrice" : 212.44906445331745,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 2 | Price: €212.44906445331745 | Action: WRITE"
+    "productPrice" : 115.58009881882157,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 2 | Price: €115.58009881882157 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 3",
-    "productPrice" : 100.93666409739659,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 3 | Price: €100.93666409739659 | Action: WRITE"
+    "productPrice" : 168.45601896576795,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 3 | Price: €168.45601896576795 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 4",
-    "productPrice" : 82.25326181598238,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 4 | Price: €82.25326181598238 | Action: WRITE"
+    "productPrice" : 112.83380698864647,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 4 | Price: €112.83380698864647 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 5",
-    "productPrice" : 130.7514613091401,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 5 | Price: €130.7514613091401 | Action: WRITE"
+    "productPrice" : 127.84463661429315,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 5 | Price: €127.84463661429315 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 6",
-    "productPrice" : 83.92976294709855,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 6 | Price: €83.92976294709855 | Action: WRITE"
+    "productPrice" : 226.13684930014043,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 6 | Price: €226.13684930014043 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 7",
-    "productPrice" : 179.64072190413555,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 7 | Price: €179.64072190413555 | Action: WRITE"
+    "productPrice" : 133.98252671299468,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 7 | Price: €133.98252671299468 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 8",
-    "productPrice" : 191.99935616366045,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 8 | Price: €191.99935616366045 | Action: WRITE"
+    "productPrice" : 64.48060943373774,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 8 | Price: €64.48060943373774 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:35",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 9",
-    "productPrice" : 192.82120596515855,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 9 | Price: €192.82120596515855 | Action: WRITE"
+    "productPrice" : 143.4695820164141,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 9 | Price: €143.4695820164141 | Action: WRITE"
   }, {
     "operationName" : "addProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
     "productName" : "Bob's Product 10",
-    "productPrice" : 81.83702322443443,
-    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 10 | Price: €81.83702322443443 | Action: WRITE"
+    "productPrice" : 237.08929097911204,
+    "additionalInfo" : "Operation: addProduct | User: Bob Smith | Email: bob.smith@email.com | ProductName: Bob's Product 10 | Price: €237.08929097911204 | Action: WRITE"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 5,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 5 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749015c5b6140934c0412 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 20,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749025c5b6140934c042c | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 18,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749025c5b6140934c042f | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 17,
+    "productId" : "694749025",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749025c5b6140934c042d | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 11,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 11 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749015c5b6140934c041f | Action: READ"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 200,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 200 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749015c5b6140934c041c | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 201,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 201 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749015c5b6140934c041c | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 202,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 202 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749015c5b6140934c0417 | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 203,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 203 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749015c5b6140934c0418 | Action: WRITE"
   }, {
     "operationName" : "updateProduct",
     "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Bob Smith",
     "userEmail" : "bob.smith@email.com",
-    "productId" : 204,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 204 | Action: WRITE"
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 207,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: deleteProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 207 | Action: WRITE"
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 208,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: deleteProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 208 | Action: WRITE"
-  }, {
-    "operationName" : "deleteProduct",
-    "operationType" : "WRITE",
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : "Bob Smith",
-    "userEmail" : "bob.smith@email.com",
-    "productId" : 209,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "Operation: deleteProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 209 | Action: WRITE"
+    "additionalInfo" : "Operation: updateProduct | User: Bob Smith | Email: bob.smith@email.com | ProductID: 694749015c5b6140934c0415 | Action: WRITE"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "bob.smith@email.com",
     "productId" : null,
@@ -298,26 +258,18 @@
     "additionalInfo" : "Clearing user context for: bob.smith@email.com"
   } ],
   "totalReadOperations" : 6,
-  "totalWriteOperations" : 26,
-  "writePercentage" : 325.0,
+  "totalWriteOperations" : 20,
+  "writePercentage" : 400.0,
   "addProductCount" : 10,
   "updateProductCount" : 10,
-  "deleteProductCount" : 6,
+  "deleteProductCount" : 0,
   "productsModified" : {
-    "208" : 1,
-    "209" : 1,
-    "200" : 1,
-    "201" : 1,
-    "202" : 1,
-    "203" : 1,
-    "204" : 1,
-    "207" : 1
+    "694749015" : 5
   },
   "operationTypeCount" : {
-    "updateProduct" : 5,
-    "deleteProduct" : 3
+    "updateProduct" : 5
   },
-  "profileDescription" : "User who performs mostly WRITE operations (325,0% writes)",
   "profileType" : "WRITE_HEAVY",
+  "profileDescription" : "User who performs mostly WRITE operations (400,0% writes)",
   "mostFrequentWriteOperation" : "updateProduct"
 }

@@ -3,13 +3,13 @@
   "userName" : "context set",
   "userEmail" : "charlie.davis@email.com",
   "userAge" : 0,
-  "profileCreatedAt" : "2025-12-19 19:10:36",
-  "lastActivityAt" : "2025-12-19 19:10:38",
+  "profileCreatedAt" : "2025-12-21 02:10:26",
+  "lastActivityAt" : "2025-12-21 02:10:26",
   "totalOperations" : 26,
   "operationHistory" : [ {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "charlie.davis@email.com",
     "productId" : null,
@@ -19,27 +19,17 @@
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "charlie.davis@email.com",
     "productId" : null,
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Successfully registered user: charlie.davis@email.com with ID: 3"
+    "additionalInfo" : "Successfully registered user: charlie.davis@email.com with ID: 694749025c5b6140934c0434"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:36",
-    "userName" : null,
-    "userEmail" : "charlie.davis@email.com",
-    "productId" : null,
-    "productName" : null,
-    "productPrice" : null,
-    "additionalInfo" : "✅ Created user: Charlie Davis (charlie.davis@email.com)"
-  }, {
-    "operationName" : null,
-    "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "context set",
     "userEmail" : "charlie.davis@email.com",
     "productId" : null,
@@ -49,7 +39,7 @@
   }, {
     "operationName" : "getAllProducts",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:36",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
     "productId" : null,
@@ -59,257 +49,257 @@
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 18,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 19,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 19 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 20,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0425 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 18,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 19,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 19 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 20,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0425 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 18,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 19,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 19 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:37",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 20,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0425 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 16,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 16 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0421 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 17,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 17 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0422 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 18,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 18 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0423 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 19,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 19 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0424 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 20,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 20 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0425 | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 11,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 11 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c041c | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 12,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 12 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c041d | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 13,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 13 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c041e | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 14,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 14 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c041f | Action: READ"
   }, {
     "operationName" : "getProductById",
     "operationType" : "READ",
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : "Charlie Davis",
     "userEmail" : "charlie.davis@email.com",
-    "productId" : 15,
+    "productId" : "694749015",
     "productName" : null,
     "productPrice" : null,
-    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 15 | Action: READ"
+    "additionalInfo" : "Operation: getProductById | User: Charlie Davis | Email: charlie.davis@email.com | ProductID: 694749015c5b6140934c0420 | Action: READ"
   }, {
     "operationName" : null,
     "operationType" : null,
-    "timestamp" : "2025-12-19 19:10:38",
+    "timestamp" : "2025-12-21 02:10:26",
     "userName" : null,
     "userEmail" : "charlie.davis@email.com",
     "productId" : null,
@@ -324,6 +314,6 @@
   "getProductByIdCount" : 25,
   "productViewCount" : { },
   "productNames" : { },
-  "profileDescription" : "User who performs mostly READ operations (100,0% reads)",
-  "profileType" : "READ_HEAVY"
+  "profileType" : "READ_HEAVY",
+  "profileDescription" : "User who performs mostly READ operations (100,0% reads)"
 }
